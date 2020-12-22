@@ -6,8 +6,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Yinan
-title: Zhou
+name: Yinan Zhou
+title: MA Student in Music Technology, McGill University
 email: yinan.zhou@mail.mcgill.ca
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -23,7 +23,7 @@ darkmode: false
 github_username:  yinanazhou
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: anastasia.zhou.7
 # flickr_username: jekyll
 # instagram_username: jekyll
 linkedin_username: yinan-zhou-ana
@@ -50,7 +50,7 @@ linkedin_username: yinan-zhou-ana
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -61,6 +61,28 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: McGill University
+        sub_title: Current MA Student
+        caption: 2020 - Present
+        # quote: >
+          # Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          -	Music Technology, Schulich School of Music, Supervisor: Prof. Ichiro Fujinaga
+          - CIRMMT Student Member, DDMAL Student Member
+      - layout: top-right
+        title: Communication University of China
+        sub_title: Bachelor of Science in Engineering
+        caption: 2016 - 2020
+        # quote: >
+          # Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Network Engineering, Information Engineering School, Faculty of Information Science and Technology
+          - GPA: 3.67/4.00, Average Score: 89/100
+          - 2016 Excellent Graduate Thesis: Research on Optical Music Notation Recognition Based on Convolutional Neural Network
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -91,17 +113,7 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs

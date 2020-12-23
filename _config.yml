@@ -70,7 +70,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: McGill University
         sub_title: Current MA Student
         caption: 2020 - Present
@@ -80,7 +80,7 @@ content:
           -	Music Technology, Schulich School of Music
           - Supervisor: [Prof. Ichiro Fujinaga](http://www.music.mcgill.ca/~ich/)
           - [CIRMMT](https://www.cirmmt.org/) Student Member, [DDMAL](https://ddmal.music.mcgill.ca/) Student Member
-      - layout: top-left
+      - layout: left
         title: Communication University of China
         sub_title: Bachelor of Science in Engineering
         caption: 2016 - 2020

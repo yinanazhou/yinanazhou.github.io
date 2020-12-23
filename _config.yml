@@ -9,7 +9,6 @@ version: 2
 name: Yinan Zhou
 title: |
  MA Student in Music Technology 
- 
  [McGill University](https://www.mcgill.ca/music/)
 email: yinan.zhou@mail.mcgill.ca
 # email_title: Email (Email title override)
@@ -75,7 +74,8 @@ content:
         # quote: >
           # Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          -	Music Technology, Schulich School of Music, Supervisor: Prof. Ichiro Fujinaga
+          -	Music Technology, Schulich School of Music
+          - Supervisor: [Prof. Ichiro Fujinaga](http://www.music.mcgill.ca/~ich/)
           - CIRMMT Student Member, DDMAL Student Member
       - layout: top-right
         title: Communication University of China
@@ -91,20 +91,35 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Realization and Comparison on Ukulele Sound Synthesis Models
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  yinanazhou/ukulele-sound-synthesis
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+            url: https://github.com/yinanazhou/ukulele-sound-synthesis
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            # icon: fab fa-github
+            # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+          # Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          This project implements both Karplus-Strong algorithm and digital waveguide model to synthesize ukulele sound. A system is then built to play MIDI files with the resulting sound of two models.
+      - layout: left
+        title: Cepstral Analysis of Audio Signals
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        additional_links:
+          - title:  yinanazhou/cepstral-analysis
+            icon: fab fa-github
+            url: https://github.com/yinanazhou/cepstral-analysis
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            # icon: fab fa-github
+            # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+          # Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          This project introduces the basic concepts of cepstrum and cepstrogram. Their implementations in pitch estimation, spectral envelope estimation, and audio feature extraction are also covered.
   - title: Experience
     layout: list
     content:

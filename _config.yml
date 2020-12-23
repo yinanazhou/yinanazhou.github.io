@@ -242,7 +242,10 @@ content:
           -	Assisted applicants in contacting overseas branches and applying for relevant visas.
           -	Planned AIESEC in CUC (Communication University of China) gatherings, including poster design, invitation design and mailing, and party favors.
       - layout: right
-        title: AIESEC in AAST//Cairo，Egypt 
+        title: |
+         AIESEC in AAST
+         
+         Cairo，Egypt 
         sub_title: Global Volunteer
         caption: August 2017 - September 2017
         # link: Link to company (optional)
@@ -260,7 +263,7 @@ content:
  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 # Footer
 footer_show_references: true
-references_title: Yinan Zhou - yinan.zhou@mail.mcgill.ca - 2020.12
+references_title: 2020.12
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)

@@ -1,5 +1,5 @@
 # Site
-repository: yinanazhou/yinanazhou.github.io
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -18,7 +18,7 @@ email: yinan.zhou@mail.mcgill.ca
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: jekyllrb
@@ -57,11 +57,11 @@ about_content: | # this will include new lines to allow paragraphs
  I am interested in Music Information Retrieval, Optical Music Recognition, and Machine Learning.
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
- You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
- - Lists
- - Tables
- - <a href="google.com">Links</a>
-# - Images ![alt text](/images/landscape-trees.jpg "Trees")
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+# - Lists
+# - Tables
+#    - <a href="google.com">Links</a>
+#    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Education
@@ -116,14 +116,11 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)

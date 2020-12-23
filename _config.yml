@@ -139,7 +139,8 @@ content:
           -	Chose and constructed appropriate neural networks.
           -	Trained the model to get the output value; calculated error and updated model parameters to reduce error.
       - layout: top
-        title: Scientific Research Camp on School Bullying Detection Based on Pattern Recognition, Harbin Institute of Technology
+        title: |
+         Scientific Research Camp on School Bullying Detection Based on Pattern Recognition//Harbin Institute of Technology
         # sub_title: 
         caption: August 20
         # link: Link to company (optional)
@@ -207,7 +208,7 @@ content:
   - title: Volunteer Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: AIESEC in CUC
         sub_title: Member of International Youth Immigration Exchange Department
         caption: June 2016 - December 2016
@@ -217,7 +218,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           -	Recruited 7 new members to the AIESEC local volunteer team.
           -	Planned the Impression Beijing public welfare program to protect traditional Chinese culture by interviewing artists, making a video, and making traditional artwork with foreign volunteers.
-      - layout: right
+      - layout: left
         title: AIESEC in CUC
         sub_title: Manager of Talent Development Department
         caption: January 2017 - September 2017
@@ -230,7 +231,7 @@ content:
           -	Performed market research on potential volunteers.
           -	Performed candidate consultation and interviewing.
           -	Designed performance evaluation criteria for team members.
-      - layout: right
+      - layout: left
         title: AIESEC in CUC
         sub_title: Manager of Overseas Internship Project Department (Outgoing Global Entrepreneur & Talent)
         caption: September 2017 - December 2017
@@ -241,11 +242,9 @@ content:
           -	Led team members to plan promotional flyers and literature, as well as a new media campaign to promote overseas internships.
           -	Assisted applicants in contacting overseas branches and applying for relevant visas.
           -	Planned AIESEC in CUC (Communication University of China) gatherings, including poster design, invitation design and mailing, and party favors.
-      - layout: right
+      - layout: left
         title: |
-         AIESEC in AAST
-         
-         Cairo，Egypt 
+         AIESEC in AAST//Cairo，Egypt 
         sub_title: Global Volunteer
         caption: August 2017 - September 2017
         # link: Link to company (optional)

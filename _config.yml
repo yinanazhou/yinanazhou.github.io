@@ -1,6 +1,5 @@
 # Site
-repository: self
-# Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -10,6 +9,7 @@ version: 2
 name: Yinan Zhou
 title: |
  MA Student in Music Technology 
+ 
  [McGill University](https://www.mcgill.ca/music/)
 email: yinan.zhou@mail.mcgill.ca
 # email_title: Email (Email title override)
@@ -58,10 +58,10 @@ about_content: | # this will include new lines to allow paragraphs
  I am interested in Music Information Retrieval, Optical Music Recognition, and Machine Learning.
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
- You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 # - Lists
 # - Tables
-    - <a href="google.com">Links</a>
+#    - <a href="google.com">Links</a>
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:

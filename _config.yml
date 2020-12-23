@@ -53,6 +53,7 @@ linkedin_username: yinan-zhou-ana
 about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
  Hi, I'm Yinan. I go by Anastasia. I am interested in all the ways in which technologies help us to enjoy music.
+ 
  Research Interest:
   - Music Information Retrieval
   - Optical Music Recognition
@@ -149,17 +150,15 @@ content:
           -	Performed feature extraction, filtering, and dimensionality reduction on motion and speech data using quartile box charts and PCA algorithms.
           -	Classified data using KNN, GMM, and decision trees.
   - title: Publications
-    layout: list
-    content:
-      - layout: top
-        description: |
-          - Pang, Long; Li, An; Zhou, Yinan. (2019). “Word length optimization method for radix-2k fixed-point pipeline FFT processors.” International Conference on Signal, Information and Data Processing, Chongqing, China, December 2019. (accepted)
-          - Zhao, Wei & Zhou, Yinan & Tie, Yun & Zhao, Yushu. (2018). Recurrent Neural Network for MIDI Music Emotion Classification. 2596-2600. 10.1109/IAEAC.2018.8577272.
-          - Zhao, Wei; Wang, Lihao; Huang, Jingwen; Zhou, Yinan. “Music Emotion Recognition Based on Feed-Forward Neural Network.” Communication University of China Journal – Natural Science Edition. April 2018. Vol. 25, No. 4. Page numbers: 1-5.
+    layout: text
+    content: |
+          - Pang, Long; Li, An; **Zhou, Yinan**. (2019). “Word length optimization method for radix-2k fixed-point pipeline FFT processors.” International Conference on Signal, Information and Data Processing, Chongqing, China, December 2019. (accepted)
+          - Zhao, Wei & **Zhou, Yinan** & Tie, Yun & Zhao, Yushu. (2018). Recurrent Neural Network for MIDI Music Emotion Classification. 2596-2600. 10.1109/IAEAC.2018.8577272.
+          - Zhao, Wei; Wang, Lihao; Huang, Jingwen; **Zhou, Yinan**. “Music Emotion Recognition Based on Feed-Forward Neural Network.” Communication University of China Journal – Natural Science Edition. April 2018. Vol. 25, No. 4. Page numbers: 1-5.
   - title: Intern Experience
     layout: list
     content:
-      - layout: left
+      - layout: right
         title: Heilongjiang Broadcast TV Station
         sub_title: Audio and Video Engineer
         caption: July-August 2019
@@ -208,7 +207,7 @@ content:
   - title: Volunteer Experience
     layout: list
     content:
-      - layout: left
+      - layout: right
         title: AIESEC in CUC
         sub_title: Member of International Youth Immigration Exchange Department
         caption: June 2016 - December 2016
@@ -218,7 +217,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           -	Recruited 7 new members to the AIESEC local volunteer team.
           -	Planned the Impression Beijing public welfare program to protect traditional Chinese culture by interviewing artists, making a video, and making traditional artwork with foreign volunteers.
-      - layout: left
+      - layout: right
         title: AIESEC in CUC
         sub_title: Manager of Talent Development Department
         caption: January 2017 - September 2017
@@ -231,7 +230,7 @@ content:
           -	Performed market research on potential volunteers.
           -	Performed candidate consultation and interviewing.
           -	Designed performance evaluation criteria for team members.
-      - layout: left
+      - layout: right
         title: AIESEC in CUC
         sub_title: Manager of Overseas Internship Project Department (Outgoing Global Entrepreneur & Talent)
         caption: September 2017 - December 2017
@@ -253,13 +252,12 @@ content:
           -	Promoted tourism and economic development in Egypt on social media platforms with the aim of reducing prejudices against Egypt.
           -	Joined with 20 volunteers from multiple countries to visit ten cities in Egypt.
           -	Researched Egyptian life, culture, religion, and history.
-
           
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+ # - title: A Little More About Me
+ #   layout: text
+ #   content: | # this will include new lines to allow paragraphs
+ #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+ #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)

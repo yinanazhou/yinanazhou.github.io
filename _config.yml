@@ -54,7 +54,7 @@ about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
  Hi, I'm Yinan. I go by Anastasia. I am interested in all the ways in which technologies help us to enjoy music.
  
- Research Interest:
+ **Research Interest:**
   - Music Information Retrieval
   - Optical Music Recognition
   - Natural Language Processing
@@ -140,7 +140,9 @@ content:
           -	Trained the model to get the output value; calculated error and updated model parameters to reduce error.
       - layout: top
         title: |
-         Scientific Research Camp on School Bullying Detection Based on Pattern Recognition//Harbin Institute of Technology
+         Scientific Research Camp on School Bullying Detection Based on Pattern Recognition
+         
+         Harbin Institute of Technology
         # sub_title: 
         caption: August 20
         # link: Link to company (optional)
@@ -244,7 +246,7 @@ content:
           -	Planned AIESEC in CUC (Communication University of China) gatherings, including poster design, invitation design and mailing, and party favors.
       - layout: left
         title: |
-         AIESEC in AAST//Cairo，Egypt 
+         AIESEC in AAST in Cairo
         sub_title: Global Volunteer
         caption: August 2017 - September 2017
         # link: Link to company (optional)

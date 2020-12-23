@@ -58,6 +58,9 @@ about_content: | # this will include new lines to allow paragraphs
   - Music Information Retrieval
   - Optical Music Recognition
   - Natural Language Processing
+  **Skills:**
+  -	Matlab, Python, C++, C
+  
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
 # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
@@ -144,7 +147,7 @@ content:
          
          Harbin Institute of Technology
         # sub_title: 
-        caption: August 20
+        caption: August 2020
         # link: Link to company (optional)
         # quote: >
           # Short description of the company (optional)
@@ -164,7 +167,7 @@ content:
       - layout: right
         title: Heilongjiang Broadcast TV Station
         sub_title: Audio and Video Engineer
-        caption: July-August 2019
+        caption: July 2019 - August 2019
         # link: Link to company (optional)
         # quote: >
           # Short description of the company (optional)

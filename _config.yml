@@ -222,29 +222,6 @@ content:
     content:
       - layout: left
         title: AIESEC in CUC
-        sub_title: Member of International Youth Immigration Exchange Department
-        caption: June 2016 - December 2016
-        # link: Link to company (optional)
-        # quote: >
-          # Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          -	Recruited 7 new members to the AIESEC local volunteer team.
-          -	Planned the Impression Beijing public welfare program to protect traditional Chinese culture by interviewing artists, making a video, and making traditional artwork with foreign volunteers.
-      - layout: left
-        title: AIESEC in CUC
-        sub_title: Manager of Talent Development Department
-        caption: January 2017 - September 2017
-        # link: Link to company (optional)
-        # quote: >
-          # Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          -	Responsible for the new recruits for Spring and Autumn 2017
-          -	Coordinated social media campaigns, poster design, and marketing copy to promote AIESEC.
-          -	Performed market research on potential volunteers.
-          -	Performed candidate consultation and interviewing.
-          -	Designed performance evaluation criteria for team members.
-      - layout: left
-        title: AIESEC in CUC
         sub_title: Manager of Overseas Internship Project Department (Outgoing Global Entrepreneur & Talent)
         caption: September 2017 - December 2017
         # link: Link to company (optional)
@@ -266,7 +243,29 @@ content:
           -	Promoted tourism and economic development in Egypt on social media platforms with the aim of reducing prejudices against Egypt.
           -	Joined with 20 volunteers from multiple countries to visit ten cities in Egypt.
           -	Researched Egyptian life, culture, religion, and history.
-          
+      - layout: left
+        title: AIESEC in CUC
+        sub_title: Manager of Talent Development Department
+        caption: January 2017 - September 2017
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          -	Responsible for the new recruits for Spring and Autumn 2017
+          -	Coordinated social media campaigns, poster design, and marketing copy to promote AIESEC.
+          -	Performed market research on potential volunteers.
+          -	Performed candidate consultation and interviewing.
+          -	Designed performance evaluation criteria for team members.
+      - layout: left
+        title: AIESEC in CUC
+        sub_title: Member of International Youth Immigration Exchange Department
+        caption: June 2016 - December 2016
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          -	Recruited 7 new members to the AIESEC local volunteer team.
+          -	Planned the Impression Beijing public welfare program to protect traditional Chinese culture by interviewing artists, making a video, and making traditional artwork with foreign volunteers.
  # - title: A Little More About Me
  #   layout: text
  #   content: | # this will include new lines to allow paragraphs

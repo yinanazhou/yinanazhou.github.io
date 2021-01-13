@@ -203,8 +203,8 @@ content:
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           -	Recorded, edited, and broadcast radio programs.
-          -	Synchronized all programs to the network.
-          -	Produced 38 periods of programming with an average duration of 20 minutes each.
+          -	Synchronized all programs to the online platform.
+          -	Produced 38 radio programs with an average duration of 20 minutes each.
       - layout: right
         title: Robotics Team, Communication University of China
         sub_title: Team Leader

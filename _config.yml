@@ -86,7 +86,7 @@ content:
           - [CIRMMT](https://www.cirmmt.org/) Student Member, [DDMAL](https://ddmal.music.mcgill.ca/) Student Member
       - layout: left
         title: Communication University of China
-        sub_title: Bachelor of Science in Engineering
+        sub_title: Bachelor of Engineering
         caption: 2016 - 2020
         # quote: >
           # Short institution or course description (optional)
@@ -98,7 +98,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top
-        title: Realization and Comparison on Ukulele Sound Synthesis Models
+        title: MUMT 618: Realization and Comparison on Ukulele Sound Synthesis Models
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
         additional_links:
@@ -113,7 +113,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           This project implements both Karplus-Strong algorithm and digital waveguide model to synthesize ukulele sound. A system is then built to play MIDI files with the resulting sound of two models.
       - layout: top
-        title: Cepstral Analysis of Audio Signals
+        title: MUMT 605: Cepstral Analysis of Audio Signals
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
         additional_links:

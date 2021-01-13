@@ -143,10 +143,7 @@ content:
           -	Chose and constructed appropriate neural networks.
           -	Trained the model to get the output value; calculated error and updated model parameters to reduce error.
       - layout: top
-        title: |
-         Scientific Research Camp on School Bullying Detection Based on Pattern Recognition
-         
-         Harbin Institute of Technology
+        title: Scientific Research Camp on School Bullying Detection Based on Pattern Recognition at Harbin Institute of Technology
         # sub_title: 
         caption: August 2020
         # link: Link to company (optional)

@@ -93,7 +93,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Network Engineering, Information Engineering School, Faculty of Information Science and Technology
           - GPA: 3.67/4.00, Average Score: 89/100
-          - 2016 Excellent Graduate Thesis: Research on Optical Music Notation Recognition Based on Convolutional Neural Network
+          - 2016 Excellent Graduate Thesis: 
+            Research on Optical Music Notation Recognition Based on Convolutional Neural Network
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:

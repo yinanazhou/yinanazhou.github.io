@@ -52,11 +52,13 @@ linkedin_username: yinan-zhou-ana
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
- Hi, I'm Yinan. I go by Anastasia. I am interested in all the ways in which technologies help us to enjoy music.\n
+ Hi, I'm Yinan. I go by Anastasia. I am interested in all the ways in which technologies help us to enjoy music.
+ 
  **Research Interest:**
   - Music Information Retrieval
   - Optical Music Recognition
-  - Natural Language Processing\n
+  - Natural Language Processing
+ 
   **Skills:**
   -	Matlab, Python, C++, C
   
@@ -162,11 +164,14 @@ content:
   - title: Coursera Certification
     layout: text
     content: |
-          - [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/EAETXSBSAU62)\n
+          - [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/EAETXSBSAU62)
+            
             Grade: 100%, issue date: 2019.08
-          - [Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/LNQVQFYJQR4U)\n
+          - [Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/LNQVQFYJQR4U)
+            
             Grade:  100%, issue date: 2019.09
-          - [Python Basics](https://www.coursera.org/account/accomplishments/certificate/KXUY2SSLN9ZT)\n          
+          - [Python Basics](https://www.coursera.org/account/accomplishments/certificate/KXUY2SSLN9ZT)       
+            
             Grade: 100%, issue date: 2020.03
   - title: Intern Experience
     layout: list

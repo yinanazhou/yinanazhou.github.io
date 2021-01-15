@@ -94,6 +94,7 @@ content:
           - Network Engineering, Information Engineering School, Faculty of Information Science and Technology
           - GPA: 3.67/4.00, Average Score: 89/100
           - 2016 Excellent Graduate Thesis: 
+          
             Research on Optical Music Notation Recognition Based on Convolutional Neural Network
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -164,10 +165,13 @@ content:
     layout: text
     content: |
           - [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/EAETXSBSAU62)
+          
             Grade: 100%, issue date: 2019.08
           - [Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/LNQVQFYJQR4U)
+          
             Grade:  100%, issue date: 2019.09
           - [Python Basics](https://www.coursera.org/account/accomplishments/certificate/KXUY2SSLN9ZT)
+          
             Grade: 100%, issue date: 2020.03
   - title: Intern Experience
     layout: list

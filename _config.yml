@@ -56,8 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
  **Research Interest:**
   - Music Information Retrieval
   - Optical Music Recognition
-  - Natural Language Processing
-  
+  - Natural Language Processing\n
   **Skills:**
   -	Matlab, Python, C++, C
   
@@ -163,14 +162,11 @@ content:
   - title: Coursera Certification
     layout: text
     content: |
-          - [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/EAETXSBSAU62)
-          
+          - [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/EAETXSBSAU62)\n
             Grade: 100%, issue date: 2019.08
-          - [Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/LNQVQFYJQR4U)
-          
+          - [Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/LNQVQFYJQR4U)\n
             Grade:  100%, issue date: 2019.09
-          - [Python Basics](https://www.coursera.org/account/accomplishments/certificate/KXUY2SSLN9ZT)
-          
+          - [Python Basics](https://www.coursera.org/account/accomplishments/certificate/KXUY2SSLN9ZT)\n          
             Grade: 100%, issue date: 2020.03
   - title: Intern Experience
     layout: list

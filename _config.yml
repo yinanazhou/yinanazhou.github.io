@@ -156,15 +156,18 @@ content:
   - title: Publications
     layout: text
     content: |
-          - Pang, Long; Li, An; **Zhou, Yinan**. (2019). “Word length optimization method for radix-2k fixed-point pipeline FFT processors.” International Conference on Signal, Information and Data Processing, Chongqing, China, December 2019. (accepted)
-          - Zhao, Wei & **Zhou, Yinan** & Tie, Yun & Zhao, Yushu. (2018). Recurrent Neural Network for MIDI Music Emotion Classification. 2596-2600. 10.1109/IAEAC.2018.8577272.
-          - Zhao, Wei; Wang, Lihao; Huang, Jingwen; **Zhou, Yinan**. “Music Emotion Recognition Based on Feed-Forward Neural Network.” Communication University of China Journal – Natural Science Edition. April 2018. Vol. 25, No. 4. Page numbers: 1-5.
+          - Pang, Long, Ao Li, **Yinan Zhou**, Chen Yang, Yizhuang Xie, and He Chen. "Word length Optimization Method for Radix-2 k Fixed-Point Pipeline FFT Processors." In 2019 IEEE International Conference on Signal, Information and Data Processing (ICSIDP), pp. 1-4. IEEE, 2019.
+          - Zhao, Wei, **Yinan Zhou**, Yun Tie, and Yushu Zhao. "Recurrent Neural Network for MIDI Music Emotion Classification." In 2018 IEEE 3rd Advanced Information Technology, Electronic and Automation Control Conference (IAEAC), pp. 2596-2600. IEEE, 2018.
+          - Zhao, Wei, Wang, Lihao, Huang, Jingwen, **Zhou, Yinan**. “Music Emotion Recognition Based on Feed-Forward Neural Network.” Communication University of China Journal – Natural Science Edition. Vol. 25, No. 4 (2018): 1-5.
   - title: Coursera Certification
     layout: text
     content: |
           - [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/EAETXSBSAU62)
+            Grade: 100%, issue date: 2019.08
           - [Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/LNQVQFYJQR4U)
+            Grade:  100%, issue date: 2019.09
           - [Python Basics](https://www.coursera.org/account/accomplishments/certificate/KXUY2SSLN9ZT)
+            Grade: 100%, issue date: 2020.03
   - title: Intern Experience
     layout: list
     content:

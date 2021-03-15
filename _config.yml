@@ -54,6 +54,13 @@ about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
  Hi, I'm Yinan. I go by Anastasia. I am interested in all the ways in which technologies help us to enjoy music.
  
+ **Courses**
+  - MUMT 605 Digit Sound Synthesis and Audio Process
+  - MUMT 618 Computational Model of Music Acoustics
+  - MUMT 501 Digital Aud. Signal Processing
+  - MUMT 621 Music Information,Retrieval,Acquisition,Preservation
+  - ECSE 551 Machine Learning for Engineers
+ 
  **Research Interest:**
   - Music Information Retrieval
   - Optical Music Recognition

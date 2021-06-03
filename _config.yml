@@ -89,8 +89,9 @@ content:
           # Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           -	Music Technology, Schulich School of Music
+          - GPA: 4.00
           - Supervisor: [Prof. Ichiro Fujinaga](http://www.music.mcgill.ca/~ich/)
-          - [CIRMMT](https://www.cirmmt.org/) Student Member, [DDMAL](https://ddmal.music.mcgill.ca/) RA
+          - [CIRMMT](https://www.cirmmt.org/) Student Member, [DDMAL](https://ddmal.music.mcgill.ca/) Research Assistant
       - layout: left
         title: Communication University of China
         sub_title: Bachelor of Engineering

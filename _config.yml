@@ -90,7 +90,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           -	Music Technology, Schulich School of Music
           - Supervisor: [Prof. Ichiro Fujinaga](http://www.music.mcgill.ca/~ich/)
-          - [CIRMMT](https://www.cirmmt.org/) Student Member, [DDMAL](https://ddmal.music.mcgill.ca/) Student Member
+          - [CIRMMT](https://www.cirmmt.org/) Student Member, [DDMAL](https://ddmal.music.mcgill.ca/) RA
       - layout: left
         title: Communication University of China
         sub_title: Bachelor of Engineering
@@ -106,6 +106,36 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top
+        title: MUMT 621 Multimodal Music Emotion Recognition Using Convolutional Neural Network
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        additional_links:
+          - title:  yinanazhou/Music-Emotion
+            icon: fab fa-github
+            url: https://github.com/yinanazhou/Music-Emotion
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            # icon: fab fa-github
+            # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+          # Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          This project explores the performance of Multimodal Learning on Music Emotion Recognition. Unimodal and bimodal methods on audio and lyrical features were built and compared. Both middle fusion and late fusion were applied for bimodal methods. This result demonstrates that the combination of two feature domains can improve the MER performance.
+      - layout: top
+        title: MUMT 501 Dereverberation on Music Signals
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        additional_links:
+          - title:  yinanazhou/Dereverberation
+            icon: fab fa-github
+            url: https://github.com/yinanazhou/Dereverberation
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            # icon: fab fa-github
+            # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+          # Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          This project implements a block-based dereverberation algorithm. The hyperparameter settings are explored on a singing voice recording. Moreover, the algorithm is also implemented on a short clip of a symphonic music piece by Mozart. It is found that this algorithm has limited effect on signals with high reverberation. The hyperparameter setting for high reverberation extraction is also discussed.
       - layout: top
         title: MUMT 618 Realization and Comparison on Ukulele Sound Synthesis Models
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)

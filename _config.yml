@@ -105,6 +105,22 @@ content:
           - 2016 Excellent Graduate Thesis: 
           
             Research on Optical Music Notation Recognition Based on Convolutional Neural Network
+  - title: Current Position # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: DDMAL Graduate Student Research Assistant
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            # icon: fab fa-github
+            # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+          # Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Tested web-based Optical Music Recognition (OMR) system Rodan and [Neon](https://github.com/DDMAL/Neon), and raised issues on GitHub.
+          - Improved and validated [MEI neume encoding schema](https://github.com/yinanazhou/music-encoding) using Oxygen.
+          - Fixed issues and added new features to [Neon](https://github.com/DDMAL/Neon).
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:

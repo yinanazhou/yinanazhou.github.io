@@ -52,7 +52,7 @@ linkedin_username: yinan-zhou-ana
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
- Hi, I'm Yinan. I go by Anastasia. I am interested in all the ways in which music help us to enjoy life.
+ Hi, I'm Yinan. I am interested in all the ways in which music help us to enjoy life. I am currently seeking internship opportunities as a front-end developer.
  
  **Courses**
   - MUMT 605 Digit Sound Synthesis and Audio Process
@@ -186,7 +186,7 @@ content:
       - layout: top
         title: Scientific Research Camp on School Bullying Detection Based on Pattern Recognition at Harbin Institute of Technology
         # sub_title: 
-        caption: August 2020
+        caption: August 2018
         # link: Link to company (optional)
         # quote: >
           # Short description of the company (optional)

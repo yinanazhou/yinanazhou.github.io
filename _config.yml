@@ -118,9 +118,10 @@ content:
         # quote: >
           # Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          - Tested web-based Optical Music Recognition (OMR) system Rodan and [Neon](https://github.com/DDMAL/Neon), and raised issues on GitHub.
+          - Tested web-based Optical Music Recognition (OMR) system [Rodan](https://ddmal.music.mcgill.ca/Rodan/) and [Neon](https://github.com/DDMAL/Neon), and raised issues on GitHub.
           - Improved and validated [MEI neume encoding schema](https://github.com/yinanazhou/music-encoding) using Oxygen.
-          - Fixed issues and added new features to [Neon](https://github.com/DDMAL/Neon).
+          - Maintained [Neon](https://github.com/DDMAL/Neon) and [Verovio](https://github.com/DDMAL/verovio) since August 2021: fixed issues, updated MER schema, and added new features.}
+          - Reduced user's correcting time per folio by 50%.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:

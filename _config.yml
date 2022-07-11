@@ -107,6 +107,8 @@ content:
           
             Research on Optical Music Notation Recognition Based on Convolutional Neural Network
   - title: Current Position # Title for the section
+    layout: list
+    content:
       - layout: left
         title: EERS Global Technologies Inc.
         sub_title: Machine Learning Developer

@@ -93,6 +93,7 @@ content:
           - Supervisor: [Prof. Ichiro Fujinaga](http://www.music.mcgill.ca/~ich/)
           - [CIRMMT](https://www.cirmmt.org/) Student Member
           - [DDMAL](https://ddmal.music.mcgill.ca/) Research Assistant
+          - Thesis: Music Information Retrieval on Lyrics Using Natural Language Processing
       - layout: left
         title: Communication University of China
         sub_title: Bachelor of Engineering
@@ -106,22 +107,43 @@ content:
           
             Research on Optical Music Notation Recognition Based on Convolutional Neural Network
   - title: Current Position # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top
-        title: DDMAL Graduate Student Research Assistant
-        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        # link_text: Link Text
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            # icon: fab fa-github
-            # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      - layout: left
+        title: EERS Global Technologies Inc.
+        sub_title: Machine Learning Developer
+        caption: March 2022 - Present
+        # link: Link to company (optional)
         # quote: >
-          # Short overview of the project (optional)
+          # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          - Tested web-based Optical Music Recognition (OMR) system [Rodan](https://ddmal.music.mcgill.ca/Rodan/) and [Neon](https://github.com/DDMAL/Neon), and raised issues on GitHub.
+          -	Annotated the dataset for biosignal monitoring using in-ear signals
+          - Compared different audio features, including modulation spectrogram and MFCC, and different machine learning algorithms and structures.
+          - Completed report for biosignal monitoring
+      - layout: left
+        title: DDMAL 
+        sub_title: Graduate Student Research Assistant (Neumes Team Leader)
+        caption: May 2021 - Present
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          -	Tested web-based Optical Music Recognition (OMR) system [Rodan](https://ddmal.music.mcgill.ca/Rodan/) and [Neon](https://github.com/DDMAL/Neon), and raised issues on GitHub.
           - Improved and validated [MEI neume encoding schema](https://github.com/yinanazhou/music-encoding) using Oxygen.
           - Maintained [Neon](https://github.com/DDMAL/Neon) and [Verovio](https://github.com/DDMAL/verovio) since August 2021: fixed issues, updated MER schema, and added new features.
           - Reduced user's correcting time per folio by 50%.
+          - Leading a team of three undergraduate students updating the UI of Neon.
+      - layout: left
+        title: Mutao Education Consulting Co.Ltd. (Shenzhen)
+        sub_title: Senior Advisor
+        caption: November 2020 - Present
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          -	Communicating personal statement ideas with the client.
+          - Introducing the format, requirements and functions of different documents.
+          - Responsible for the preliminary review and annotation of the information provided by the student.
+          - Reviewing personal statement / resume / recommendation letter draft.
+          - Helping the client complete personal statements for different schools.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -217,24 +239,7 @@ content:
           - Pang, Long, Ao Li, **Yinan Zhou**, Chen Yang, Yizhuang Xie, and He Chen. "Word length Optimization Method for Radix-2 k Fixed-Point Pipeline FFT Processors." In 2019 IEEE International Conference on Signal, Information and Data Processing (ICSIDP), pp. 1-4. IEEE, 2019.
           - Zhao, Wei, **Yinan Zhou**, Yun Tie, and Yushu Zhao. "Recurrent Neural Network for MIDI Music Emotion Classification." In 2018 IEEE 3rd Advanced Information Technology, Electronic and Automation Control Conference (IAEAC), pp. 2596-2600. IEEE, 2018.
           - Zhao, Wei, Wang, Lihao, Huang, Jingwen, **Zhou, Yinan**. “Music Emotion Recognition Based on Feed-Forward Neural Network.” Communication University of China Journal – Natural Science Edition. Vol. 25, No. 4 (2018): 1-5.
-  - title: Coursera Certification
-    layout: text
-    content: |
-          - [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/EAETXSBSAU62)
-            
-            Grade: 100%, issue date: 2019.08
-          - [Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/LNQVQFYJQR4U)
-            
-            Grade:  100%, issue date: 2019.09
-          - [Python Basics](https://www.coursera.org/account/accomplishments/certificate/KXUY2SSLN9ZT)       
-            
-            Grade: 100%, issue date: 2020.03
-          - [Getting Started in Google Analytics](https://www.coursera.org/account/accomplishments/certificate/NCVCUCWZ7WFF)
-            
-            Grade: 100%, issue date: 2021.03
-          - [Fundamentals of Music Theory](https://coursera.org/share/4927d4f63b33e11889cb3c1a69a5552a)
-            
-            Grade: 98.88%, issue date: 2021.05
+              Grade: 98.88%, issue date: 2021.05
   - title: Intern Experience
     layout: list
     content:
@@ -284,6 +289,44 @@ content:
           -	Participate in robotics competitions in the five provinces of North China.
           -	Assign tasks to team members and schedule competition preparation sessions.
           -	Participate in school smart tracking car competition.
+  - title: Coursera Certification
+    layout: text
+    content: |
+          - [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/EAETXSBSAU62)
+            
+            Grade: 100%, issue date: 2019.08
+          - [Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/LNQVQFYJQR4U)
+            
+            Grade:  100%, issue date: 2019.09
+          - [Python Basics](https://www.coursera.org/account/accomplishments/certificate/KXUY2SSLN9ZT)       
+            
+            Grade: 100%, issue date: 2020.03
+          - [Getting Started in Google Analytics](https://www.coursera.org/account/accomplishments/certificate/NCVCUCWZ7WFF)
+            
+            Grade: 100%, issue date: 2021.03
+          - [Fundamentals of Music Theory](https://coursera.org/share/4927d4f63b33e11889cb3c1a69a5552a)
+  - title: Awards and Scholarships
+    layout: text
+    content: |
+          - Schulich School of Music
+            - Graduate Excellence Fellowship Awards
+          - Communication University of China, Beijing, China
+            - 2018 First-Class Scholarship, awarded for ranking 2nd in the class
+            -	2018 Individual Scholarship for Academic Improvement, awarded by the Information Engineering School, Faculty of Science and Technology
+            -	2018 First Prize, 3rd Annual Science and Technology Innovation Competition Robot Match
+            -	2017 Third-Class Scholarship, awarded for ranking 6th in the class
+            -	2017 Three-Merits Student Award
+          - Beijing College Students Sound Trend Meter “College Broadcast Unit” Genre Broadcast, Beijing, China
+            -	2018 Excellent Works Award
+            -	2017 Second Prize
+          - CTV Guangxin Innovation Scholarship, Beijing, China
+            -	2018 Excellence in Innovation Award for paper “Recurrent neural network for MIDI music emotion classification”
+          - Gaojiao Cup National College Students Mathematical Modeling Contest, Beijing, China
+            -	2018 Group A Second Prize
+            -	2017 Group A Successful Participation Award
+          - Dance Robot Competition and College Student Robot Competition
+ 	          - 2017 Group Second Prize, Beijing, China
+            -	2017 Group Second Prize, North China
   - title: Volunteer Experience
     layout: list
     content:
@@ -340,7 +383,7 @@ content:
  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 # Footer
 footer_show_references: true
-references_title: 2020.12
+references_title: 2022.07
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)

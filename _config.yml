@@ -66,7 +66,7 @@ about_content: | # this will include new lines to allow paragraphs
 # - Tables
 #    - <a href="google.com">Links</a>
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
+content:
 - title: Current Position # Title for the section
     layout: list
     content:
@@ -116,7 +116,6 @@ about_content: | # this will include new lines to allow paragraphs
           - Reviewing personal statement / resume / recommendation letter draft.
           - Helping the client complete personal statements for different schools.
           
-content:
   - title: Education
     layout: list
     content:

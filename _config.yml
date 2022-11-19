@@ -78,14 +78,14 @@ content:
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Biosignal Monitoring
+          **Biosignal Monitoring**
           - Completed a machine learning experiment framework in Python, including feature extraction, participant-wise cross-validation, and trained model test.
           -	Annotated dataset for biosignal monitoring using in-ear signals. Extracted spectral features, including Mel-spectrogram, MFCC, and modulation spectrogram.
           - Implemented different state-of-arts deep learning architectures for biosignal monitoring on cutsom dataset with TensorFlow or Pytorch on AWS.
           - Applied transfer learning using existing pre-trained models on the custom dataset.
           - Implemented a trainable frontend as a custom layer in TensorFlow.
           
-          Speech Intelligence
+          **Speech Intelligence**
           - Completed a machine learning experiment framework in MATLAB, including audio preprocessing, feature extraction, and participant-wise leave-one-out cross-validation.
           - Extracting temperal and spectral features in a real-time manner, as well as higher-level features, such as MFCC.
           - Investigated the impact of different DSP method on the linear relationship between different features and ground truth.
@@ -151,8 +151,8 @@ content:
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
         additional_links:
-          - title: link to the team
-            icon: fab fa-regular fa-music
+          - title: team link
+            icon: fab fa-music
             url: https://www.aisongcontest.com/participants-2022/expecto-patronum
         description: |
           The idea is to train a model to learn the correspondence between ancient Chinese poetry and melody, and use this model to restore the melody of the poetry from an earlier time whose melody has been lost. To map poems to melody, we first built a dataset using 6,500 ancient Chinese songs, whose lyrics are poetries from more recent times. Then, we used the [TeleMelody](https://speechresearch.github.io/telemelody/) model by Microsoft to generate melodies.
@@ -162,7 +162,7 @@ content:
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
         additional_links:
-          - title:  yinanazhou/Music-Emotion
+          - title: github link
             icon: fab fa-github
             url: https://github.com/yinanazhou/Multimodal-Music-Emotion
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -177,7 +177,7 @@ content:
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
         additional_links:
-          - title:  yinanazhou/Dereverberation
+          - title: github link
             icon: fab fa-github
             url: https://github.com/yinanazhou/Dereverberation
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -192,7 +192,7 @@ content:
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
         additional_links:
-          - title:  yinanazhou/ukulele-sound-synthesis
+          - title:  github link
             icon: fab fa-github
             url: https://github.com/yinanazhou/ukulele-sound-synthesis
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -207,7 +207,7 @@ content:
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
         additional_links:
-          - title:  yinanazhou/cepstral-analysis
+          - title:  github link
             icon: fab fa-github
             url: https://github.com/yinanazhou/cepstral-analysis
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)

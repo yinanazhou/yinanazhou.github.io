@@ -67,7 +67,7 @@ about_content: | # this will include new lines to allow paragraphs
 #    - <a href="google.com">Links</a>
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 content:
-- title: Current Position # Title for the section
+  - title: Current Position # Title for the section
     layout: list
     content:
       - layout: left

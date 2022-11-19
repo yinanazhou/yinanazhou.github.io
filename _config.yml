@@ -1,13 +1,13 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: fab fa-user
 
 # Content configuration version
 version: 2
 
 # Personal info
 name: Yinan Zhou
-title: MA Student in Music Technology, McGill University
+title: Machine Learning Developer in Speech/Music/Biosignal
 email: yinan.zhou@mail.mcgill.ca
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -52,22 +52,12 @@ linkedin_username: yinan-zhou-ana
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
- Hi, I'm Yinan. I am interested in all the ways in which music helps us to enjoy life. I am currently seeking internship opportunities as a front-end developer.
- 
- **Courses**
-  - MUMT 605 Digit Sound Synthesis and Audio Process
-  - MUMT 618 Computational Model of Music Acoustics
-  - MUMT 501 Digital Audio Signal Processing
-  - MUMT 621 Music Information, Retrieval, Acquisition, Preservation
-  - ECSE 551 Machine Learning for Engineers
- 
- **Research Interest:**
-  - Music Information Retrieval
-  - Optical Music Recognition
-  - Natural Language Processing
+ Hi, I'm Yinan. I am interested in all the ways in which music and audio helps us to enjoy life. I am currently seeking job opportunities as a machine learning developer.
  
   **Skills:**
-  -	Matlab, Python, C++, C, JavaScript, HTML/CSS
+  -	Python: TensorFlow/PyTorch, AWS
+  - Matlab, C++, C
+  - JavaScript/TypeScript, HTML/CSS
   
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -77,54 +67,33 @@ about_content: | # this will include new lines to allow paragraphs
 #    - <a href="google.com">Links</a>
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
-content:
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: McGill University
-        sub_title: Current MA Student
-        caption: 2020 - Present
-        # quote: >
-          # Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          -	Music Technology, Schulich School of Music
-          - GPA: 4.00
-          - Supervisor: [Prof. Ichiro Fujinaga](http://www.music.mcgill.ca/~ich/)
-          - [CIRMMT](https://www.cirmmt.org/) Student Member
-          - [DDMAL](https://ddmal.music.mcgill.ca/) Research Assistant
-          - Thesis: Music Emotion Recognition on Lyrics Using Natural Language Processing
-      - layout: left
-        title: Communication University of China
-        sub_title: Bachelor of Engineering
-        caption: 2016 - 2020
-        # quote: >
-          # Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          - Network Engineering, Information Engineering School, Faculty of Information Science and Technology
-          - GPA: 3.67/4.00, Average Score: 89/100
-          - 2016 Excellent Graduate Thesis: 
-          
-            Research on Optical Music Notation Recognition Based on Convolutional Neural Network
-  - title: Current Position # Title for the section
+- title: Current Position # Title for the section
     layout: list
     content:
       - layout: left
         title: EERS Global Technologies Inc.
         sub_title: Machine Learning Developer
         caption: March 2022 - Present
-        # link: Link to company (optional)
+        link: https://www.eers.ca/
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          -	Annotated the dataset for biosignal monitoring using in-ear signals
-          - Compared different audio features, including modulation spectrogram and MFCC, and different machine learning algorithms and structures.
-          - Completed report for biosignal monitoring
+          Biosignal Monitoring
+          - Completed a machine learning experiment framework in Python, including feature extraction, participant-wise cross-validation, and trained model test.
+          -	Annotated dataset for biosignal monitoring using in-ear signals. Extracted spectral features, including Mel-spectrogram, MFCC, and modulation spectrogram.
+          - Implemented different state-of-arts deep learning architectures for biosignal monitoring on cutsom dataset with TensorFlow or Pytorch on AWS.
+          - Applied transfer learning using existing pre-trained models on the custom dataset.
+          - Implemented a trainable frontend as a custom layer in TensorFlow.
+          
+          Speech Intelligence
+          - Completed a machine learning experiment framework in MATLAB, including audio preprocessing, feature extraction, and participant-wise leave-one-out cross-validation.
+          - Extracting temperal and spectral features in a real-time manner, as well as higher-level features, such as MFCC.
+          - Investigated the impact of different DSP method on the linear relationship between different features and ground truth.
       - layout: left
         title: DDMAL 
         sub_title: Graduate Student Research Assistant (Neumes Team Leader)
         caption: May 2021 - Present
-        # link: Link to company (optional)
+        link: https://ddmal.music.mcgill.ca/
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
@@ -146,9 +115,49 @@ content:
           - Responsible for the preliminary review and annotation of the information provided by the student.
           - Reviewing personal statement / resume / recommendation letter draft.
           - Helping the client complete personal statements for different schools.
+          
+content:
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: McGill University
+        sub_title: Master of Arts
+        caption: 2020 - 2022
+        # quote: >
+          # Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          -	Music Technology, Schulich School of Music
+          - GPA: 4.00
+          - Supervisor: [Prof. Ichiro Fujinaga](http://www.music.mcgill.ca/~ich/)
+          - [CIRMMT](https://www.cirmmt.org/) Student Member
+          - [DDMAL](https://ddmal.music.mcgill.ca/) Research Assistant
+          - Thesis: Music Emotion Recognition on Lyrics Using Natural Language Processing
+      - layout: left
+        title: Communication University of China
+        sub_title: Bachelor of Engineering
+        caption: 2016 - 2020
+        # quote: >
+          # Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Network Engineering, Information Engineering School, Faculty of Information Science and Technology
+          - GPA: 3.67/4.00, Average Score: 89/100
+          - 2016 Excellent Graduate Thesis: Research on Optical Music Notation Recognition Based on Convolutional Neural Network
+  
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top
+        title: AI Song Contest - Poetry-based Chinese Traditional Music Generation Using Transfer Learning 
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        additional_links:
+          - title: link to the team
+            icon: fab fa-music
+            url: https://www.aisongcontest.com/participants-2022/expecto-patronum
+        description: |
+          The idea is to train a model to learn the correspondence between ancient Chinese poetry and melody, and use this model to restore the melody of the poetry from an earlier time whose melody has been lost. To map poems to melody, we first built a dataset using 6,500 ancient Chinese songs, whose lyrics are poetries from more recent times. Then, we used the [TeleMelody](https://speechresearch.github.io/telemelody/) model by Microsoft to generate melodies.
+      
       - layout: top
         title: MUMT 621 Multimodal Music Emotion Recognition Using Convolutional Neural Network
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
@@ -385,7 +394,7 @@ content:
  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 # Footer
 footer_show_references: true
-references_title: 2022.07
+references_title: 2022.11
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)

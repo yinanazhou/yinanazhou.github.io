@@ -87,7 +87,7 @@ content:
           
           **Speech Intelligence**
           - Completed a machine learning experiment framework in MATLAB, including audio preprocessing, feature extraction, and participant-wise leave-one-out cross-validation.
-          - Extracted temperal and spectral features in a real-time manner, as well as higher-level features, such as MFCC.
+          - Extracted temporal and spectral features in a real-time manner, as well as higher-level features, such as MFCC.
           - Investigated the impact of different DSP method on the linear relationship between different features and ground truth.
       - layout: left
         title: DDMAL 

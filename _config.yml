@@ -1,6 +1,6 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-favicon: far fa-user
+favicon: fas fa-user
 # Content configuration version
 version: 2
 
@@ -151,7 +151,7 @@ content:
         # link_text: Link Text
         additional_links:
           - title: team link
-            icon: far fa-music
+            icon: fas fa-music
             url: https://www.aisongcontest.com/participants-2022/expecto-patronum
         description: |
           The idea is to train a model to learn the correspondence between ancient Chinese poetry and melody, and use this model to restore the melody of the poetry from an earlier time whose melody has been lost. To map poems to melody, we first built a dataset using 6,500 ancient Chinese songs, whose lyrics are poetries from more recent times. Then, we used the [TeleMelody](https://speechresearch.github.io/telemelody/) model by Microsoft to generate melodies.

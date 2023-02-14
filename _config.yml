@@ -84,7 +84,7 @@ content:
           - Applied transfer learning using existing pre-trained models on the custom dataset.
           - Implemented a trainable frontend as a custom layer in TensorFlow.
           
-          **Speech Intelligence**
+          **Speech Intelligibility**
           - Completed a machine learning experiment framework in MATLAB, including audio preprocessing, feature extraction, and participant-wise leave-one-out cross-validation.
           - Extracted temporal and spectral features in a real-time manner, as well as higher-level features, such as MFCC.
           - Investigated the impact of different DSP method on the linear relationship between different features and ground truth.

@@ -66,9 +66,28 @@ about_content: | # this will include new lines to allow paragraphs
 #    - <a href="google.com">Links</a>
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 content:
-  - title: Current Position # Title for the section
+  - title: Work Experience # Title for the section
     layout: list
     content:
+      - layout: left
+        title: EERS Global Technologies Inc.
+        sub_title: Machine Learning Developer
+        caption: March 2022 - March 2023
+        link: https://www.eers.ca/
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          **Biosignal Monitoring**
+          - Completed a machine learning experiment framework in Python, including feature extraction, participant-wise cross-validation, and trained model test.
+          -	Annotated dataset for biosignal monitoring using in-ear signals. Extracted spectral features, including Mel-spectrogram, MFCC, and modulation spectrogram.
+          - Implemented different state-of-arts deep learning architectures for biosignal monitoring on cutsom dataset with TensorFlow or Pytorch on AWS.
+          - Applied transfer learning using existing pre-trained models on the custom dataset.
+          - Implemented a trainable frontend as a custom layer in TensorFlow.
+          
+          **Speech Intelligibility**
+          - Completed a machine learning experiment framework in MATLAB, including audio preprocessing, feature extraction, and participant-wise leave-one-out cross-validation.
+          - Extracted temporal and spectral features in a real-time manner, as well as higher-level features, such as MFCC.
+          - Investigated the impact of different DSP method on the linear relationship between different features and ground truth.
       - layout: left
         title: DDMAL 
         sub_title: Graduate Student Research Assistant (Neumes Team Leader)
@@ -94,30 +113,7 @@ content:
           - Introducing the format, requirements and functions of different documents.
           - Responsible for the preliminary review and annotation of the information provided by the student.
           - Reviewing personal statement / resume / recommendation letter draft.
-          - Helping the client complete personal statements for different schools.
-  - title: Current Position # Title for the section
-    layout: list
-    content:
-      - layout: left
-        title: EERS Global Technologies Inc.
-        sub_title: Machine Learning Developer
-        caption: March 2022 - March 2023
-        link: https://www.eers.ca/
-        # quote: >
-          # Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          **Biosignal Monitoring**
-          - Completed a machine learning experiment framework in Python, including feature extraction, participant-wise cross-validation, and trained model test.
-          -	Annotated dataset for biosignal monitoring using in-ear signals. Extracted spectral features, including Mel-spectrogram, MFCC, and modulation spectrogram.
-          - Implemented different state-of-arts deep learning architectures for biosignal monitoring on cutsom dataset with TensorFlow or Pytorch on AWS.
-          - Applied transfer learning using existing pre-trained models on the custom dataset.
-          - Implemented a trainable frontend as a custom layer in TensorFlow.
-          
-          **Speech Intelligibility**
-          - Completed a machine learning experiment framework in MATLAB, including audio preprocessing, feature extraction, and participant-wise leave-one-out cross-validation.
-          - Extracted temporal and spectral features in a real-time manner, as well as higher-level features, such as MFCC.
-          - Investigated the impact of different DSP method on the linear relationship between different features and ground truth.
-      
+          - Helping the client complete personal statements for different schools.     
   - title: Education
     layout: list
     content:

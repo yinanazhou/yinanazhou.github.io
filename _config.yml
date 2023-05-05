@@ -146,7 +146,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-    - layout: top
+      - layout: top
         title: Data Analysis: Rum Ratings Website 
         # link: https://github.com/yinanazhou/rum-analysis
         # link_text: Link Text

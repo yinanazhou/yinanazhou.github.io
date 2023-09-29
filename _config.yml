@@ -54,9 +54,9 @@ about_content: | # this will include new lines to allow paragraphs
  Hi, I'm Yinan. I am interested in all the ways in which music and audio helps us to enjoy life. I am currently seeking job opportunities as a machine learning developer or a data scientist.
  
   **Skills:**
-  -	Python: TensorFlow/PyTorch, AWS
+  -	Python: TensorFlow/PyTorch, AWS, Django
   - Matlab, C++, C
-  - JavaScript/TypeScript, HTML/CSS, React
+  - JavaScript/TypeScript, HTML/CSS, React, SQL
   
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -70,30 +70,8 @@ content:
     layout: list
     content:
       - layout: left
-        title: EERS Global Technologies Inc.
-        sub_title: Machine Learning Developer
-        caption: March 2022 - March 2023
-        link: https://www.eers.ca/
-        # quote: >
-          # Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          **Biosignal Monitoring | TensorFlow, PyTorch, AWS**
-          - Developed a machine learning experiment framework used by 2 internal teams, including feature extraction and participant-wise cross-validation.
-          - Annotated dataset of 24 hours in-ear audio. Extracted and analyzed spectral features, including Mel-spectrogram, MFCC, and modulation spectrogram (image data).
-          - Implemented different state-of-arts deep learning architectures (RNN, UNet) for biosignal monitoring with TensorFlow or Pytorch on AWS.
-          - Applied transfer learning using existing pre-trained models (CNN) on the custom dataset.
-          - Implemented a trainable frontend as a custom layer in TensorFlow.
-          
-          **Speech Intelligibility Enhancement | TensorFlow, MATLAB**
-          - Finetuned SpeechBrain pre-trained models (transformer) for speech intelligibility enhancement.
-          - Completed a machine learning experiment framework in MATLAB and Python used by 2 internal teams, including audio preprocessing, feature extraction, and participant-wise leave-one-out cross-validation.
-          - Extracted and analyzed temporal and spectral features on in-ear audio data in a real-time manner, as well as higher-level features, such as MFCC.
-          - Explored the usage of IMU data in terms of speech intelligibility enhancement.
-          - Investigated the impact of different DSP method on the linear relationship between different features and ground truth.
-          - Developed an end-to-end machine learning framework (LR/Decision Tree) for out-of-ear detection.
-      - layout: left
         title: DDMAL 
-        sub_title: Graduate Student Research Assistant (Neumes Team Leader)
+        sub_title: Research Assistant
         caption: May 2021 - Present
         link: https://ddmal.music.mcgill.ca/
         # quote: >
@@ -101,12 +79,24 @@ content:
         description: | # this will include new lines to allow paragraphs
           -	Tested web-based Optical Music Recognition (OMR) system [Rodan](https://ddmal.music.mcgill.ca/Rodan/) and [Neon](https://github.com/DDMAL/Neon).
           - Improved and validated [MEI neume encoding schema](https://github.com/yinanazhou/music-encoding) using Oxygen.
-          - Maintained [Neon](https://github.com/DDMAL/Neon) and [Verovio](https://github.com/DDMAL/verovio), reduced user's correcting time per folio by 50%.
-          - As the lead of a team, finished updating the UI of Neon.
+          - As the lead of a team, maintained [Neon](https://github.com/DDMAL/Neon) and [Verovio](https://github.com/DDMAL/verovio), updated UI, improved efficiency, and reduced user's correcting time per folio by 50%.
+          - Responsible for designing and implementing the front-end architecture of [Virtual Instrument Museum](https://github.com/DDMAL/VIM), ensuring a user-friendly and responsive interface.
+      - layout: left
+        title: EERS Global Technologies Inc.
+        sub_title: Machine Learning Developer
+        caption: March 2022 - March 2023
+        link: https://www.eers.ca/
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Set up optimal AWS SageMaker configurations after assessing the company’s requirements, and documented the infrastructure architecture and configuration details for future reference and knowledge sharing.
+          - Performed audio preprocessing, feature extraction, and visualization on an unstructured in-ear audio dataset with Python and reported insights on spectral characteristics and future research.
+          - Conducted exploratory experiments in Python (TensorFlow/PyTorch) and MATLAB, using lightweight machine learning algorithms such as Linear Regression, shallow CNN and RNN, and techniques including Transfer Learning with HuggingFace and custom layer implementation, to develop models for breathing rate estimation and speech intelligibility enhancement, contributing to the development of new products.
+          - Authored comprehensive deliverables and worked closely with real-time developer to REAPER plugin prototyping and with hardware developer for product prototyping.
       - layout: left
         title: Mutao Education Consulting Co.Ltd. (Shenzhen)
         sub_title: Senior Advisor
-        caption: November 2020 - Present
+        caption: November 2020 - 2021
         # link: Link to company (optional)
         # quote: >
           # Short description of the company (optional)

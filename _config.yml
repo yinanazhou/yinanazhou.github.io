@@ -51,8 +51,12 @@ linkedin_username: yinan-zhou-ana
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
- Hi, I'm Yinan. I am interested in all the ways in which music and audio helps us to enjoy life. I am currently seeking job opportunities as a machine learning developer or a data scientist.
- 
+ Hi, I'm Yinan. I am interested in in which data feminism helps promote a fair and inclusive music industry in terms of gender, race, sexuality, and all the other factors that together influence each person's experience and opportunities in the world. I am currently seeking job opportunities as a machine learning developer or a data scientist.
+
+  ** Research Interest:**
+  - Music Recommender System
+  - Data Feminism
+  
   **Skills:**
   -	Python: TensorFlow/PyTorch, AWS, Django
   - Matlab, C++, C
@@ -77,10 +81,9 @@ content:
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          -	Tested web-based Optical Music Recognition (OMR) system [Rodan](https://ddmal.music.mcgill.ca/Rodan/) and [Neon](https://github.com/DDMAL/Neon).
-          - Improved and validated [MEI neume encoding schema](https://github.com/yinanazhou/music-encoding) using Oxygen.
-          - As the lead of a team, maintained [Neon](https://github.com/DDMAL/Neon) and [Verovio](https://github.com/DDMAL/verovio), updated UI, improved efficiency, and reduced user's correcting time per folio by 50%.
-          - Responsible for designing and implementing the front-end architecture of [Virtual Instrument Museum](https://github.com/DDMAL/VIM), ensuring a user-friendly and responsive interface.
+          -	Led a team in the development of an open-source web-based music score editor, leveraging **TypeScript** for [front-end implementation](https://github.com/DDMAL/Neon), **C++** for [algorithms](https://github.com/DDMAL/verovio), and Docker for precommit testing.
+          - Implemented bug fixes, feature enhancements, resulting in a streamlined user experience and a significant 50% reduction in correcting time per folio.
+          - Responsible for designing and implementing the front-end architecture of a **Django-based** website [Virtual Instrument Museum](https://vim.simssa.ca/) from scratch with **JavaScript** and **Bootstrap**, ensuring a user-friendly and responsive interface.
       - layout: left
         title: EERS Global Technologies Inc.
         sub_title: Machine Learning Developer
@@ -89,23 +92,23 @@ content:
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          - Set up optimal AWS SageMaker configurations after assessing the company’s requirements, and documented the infrastructure architecture and configuration details for future reference and knowledge sharing.
-          - Performed audio preprocessing, feature extraction, and visualization on an unstructured in-ear audio dataset with Python and reported insights on spectral characteristics and future research.
-          - Conducted exploratory experiments in Python (TensorFlow/PyTorch) and MATLAB, using lightweight machine learning algorithms such as Linear Regression, shallow CNN and RNN, and techniques including Transfer Learning with HuggingFace and custom layer implementation, to develop models for breathing rate estimation and speech intelligibility enhancement, contributing to the development of new products.
+          - Set up optimal **AWS SageMaker** configurations after assessing the company’s requirements, and documented the infrastructure architecture and configuration details for future reference and knowledge sharing.
+          - Performed audio preprocessing, feature extraction, and visualization on an **unstructured** in-ear audio dataset with **Python** and reported insights on spectral characteristics and future research.
+          - Conducted exploratory experiments in Python (**TensorFlow/PyTorch**) and **MATLAB**, using lightweight machine learning algorithms such as Linear Regression, shallow CNN and RNN, and techniques including **Transfer Learning** with **HuggingFace** and **custom layer implementation**, to develop models for breathing rate estimation and speech intelligibility enhancement, contributing to the development of new products.
           - Authored comprehensive deliverables and worked closely with real-time developer to REAPER plugin prototyping and with hardware developer for product prototyping.
-      - layout: left
-        title: Mutao Education Consulting Co.Ltd. (Shenzhen)
-        sub_title: Senior Advisor
-        caption: November 2020 - 2021
-        # link: Link to company (optional)
-        # quote: >
-          # Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          -	Communicating personal statement ideas with the client.
-          - Introducing the format, requirements and functions of different documents.
-          - Responsible for the preliminary review and annotation of the information provided by the student.
-          - Reviewing personal statement / resume / recommendation letter draft.
-          - Helping the client complete personal statements for different schools.     
+      # - layout: left
+      #   title: Mutao Education Consulting Co.Ltd. (Shenzhen)
+      #   sub_title: Senior Advisor
+      #   caption: November 2020 - 2021
+      #   # link: Link to company (optional)
+      #   # quote: >
+      #     # Short description of the company (optional)
+      #   description: | # this will include new lines to allow paragraphs
+      #     -	Communicating personal statement ideas with the client.
+      #     - Introducing the format, requirements and functions of different documents.
+      #     - Responsible for the preliminary review and annotation of the information provided by the student.
+      #     - Reviewing personal statement / resume / recommendation letter draft.
+      #     - Helping the client complete personal statements for different schools.     
   - title: Education
     layout: list
     content:

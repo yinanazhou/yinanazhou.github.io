@@ -51,14 +51,15 @@ linkedin_username: yinan-zhou-ana
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
- Hi, I'm Yinan. I am interested in all the ways in which data feminism helps promote a fair and inclusive music industry in terms of gender, race, sexuality, and all the other factors that together influence each person's experience and opportunities in the world. I am currently seeking job opportunities as a machine learning developer or a data scientist.
+ Hi, I'm Yinan. I am interested in how data feminism helps promote a fair and inclusive music industry in terms of gender, race, sexuality, and all the other factors that together influence each person's experience and opportunities in the world. I am currently seeking job opportunities as a machine learning developer or a data scientist.
 
   **Research Interest:**
+  - Natural Language Processing
   - Music Recommender System
   - Data Feminism
   
   **Skills:**
-  -	Python: TensorFlow/PyTorch, AWS, Django
+  -	Python (TensorFlow/PyTorch), Django/Flask, AWS, Docker
   - Matlab, C++, C
   - JavaScript/TypeScript, HTML/CSS, React, SQL
   
@@ -81,9 +82,9 @@ content:
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          -	Led a team in the development of an open-source web-based music score editor, leveraging **TypeScript** for [front-end implementation](https://github.com/DDMAL/Neon), **C++** for [algorithms](https://github.com/DDMAL/verovio), and Docker for precommit testing.
+          -	Led a team in the development of an open-source web-based music score editor [Neon](https://github.com/DDMAL/Neon), leveraging **TypeScript** for front-end implementation, **C++** for algorithm API [Verovio](https://github.com/DDMAL/verovio), and **Docker** for precommit testing.
           - Implemented bug fixes, feature enhancements, resulting in a streamlined user experience and a significant 50% reduction in correcting time per folio.
-          - Responsible for designing and implementing the front-end architecture of a **Django-based** website [Virtual Instrument Museum](https://vim.simssa.ca/) from scratch with **JavaScript** and **Bootstrap**, ensuring a user-friendly and responsive interface.
+          - Participated in the development of the [Virtual Instrument Museum](https://vim.simssa.ca/) website from scratch, responsible for designing and implementing the front-end architecture with **JavaScript** and **Bootstrap**, back-end architecture with **Django**, data pipeline with **Solr**, and container with **Docker**, ensuring a user-friendly and responsive interface.
       - layout: left
         title: EERS Global Technologies Inc.
         sub_title: Machine Learning Developer
@@ -140,6 +141,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top
+        title: 'Data Scientist Salary Estimation Model'
+        # link: https://github.com/yinanazhou/rum-analysis
+        # link_text: Link Text
+        additional_links:
+          - title: github link
+            icon: fab fa-github
+            url: https://github.com/yinanazhou/ds-glassdoor
+        description: |
+          - Scraped data scientist openings in Canada from glassdoor.ca with **Selenium**, and conducted data preprocessing.
+          - Conducted Exploratory Data Analysis to assess market demand for data scientists, analyzing tech stack trends and identifying essential skills for professional development strategies.
+          - Built machine learning models with **custom loss function** to estimate data scientist salary, and packaged it into a client facing API using **Flask**.
+      - layout: top
         title: 'Data Analysis: Rum Ratings Website'
         # link: https://github.com/yinanazhou/rum-analysis
         # link_text: Link Text
@@ -148,7 +161,7 @@ content:
             icon: fab fa-github
             url: https://github.com/yinanazhou/rum-analysis
         description: |
-          - Scraped the Rum Ratings website to build a dataset of over 9,000 rum information, and conducted data cleaning and preprocessing, including handling missing data.
+          - Scraped the Rum Ratings website with **BeautifulSoup** to build a dataset of over 9,000 rum information, and conducted data cleaning and preprocessing, including handling missing data.
           - Calculated the Bayesian average rating to account for the number of ratings and the variability of ratings.
           - Conducted Exploratory Data Analysis to analyze the relationship between rum ratings, price, region, and type.
           - Generated data visualizations and completed a report to show findings.

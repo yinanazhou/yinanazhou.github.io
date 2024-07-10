@@ -55,7 +55,6 @@ about_content: | # this will include new lines to allow paragraphs
 
   **Research Interest:**
   - Natural Language Processing
-  - Music Recommender System
   - Data Feminism
   
   **Skills:**
@@ -82,9 +81,10 @@ content:
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          -	Led a team in the development of an open-source web-based music score editor [Neon](https://github.com/DDMAL/Neon), leveraging **TypeScript** for front-end implementation, **C++** for algorithm API [Verovio](https://github.com/DDMAL/verovio), and **Docker** for precommit testing.
-          - Implemented bug fixes, feature enhancements, resulting in a streamlined user experience and a significant 50% reduction in correcting time per folio.
-          - Participated in the development of the [Virtual Instrument Museum](https://vim.simssa.ca/) website from scratch, responsible for designing and implementing the front-end architecture with **JavaScript** and **Bootstrap**, back-end architecture with **Django**, data pipeline with **Solr**, and container with **Docker**, ensuring a user-friendly and responsive interface.
+          - Led a team in the development of a music score editor [Neon](https://github.com/DDMAL/Neon) with MEI/MusicXML. Implemented front-end interface with **TypeScript**, editor toolkit customization to [Verovio](https://github.com/DDMAL/verovio) library in **C++**, database with **IndexedDB**, E2E tests with **Cypress**, resulting in more than 50% reduction in correcting time per folio.
+          - Enhanced front-end functionality of an Optical Music Recognition website [Rodan](https://github.com/DDMAL/Rodan/tree/develop) with **JavaScript** and **Marionette**, and resolved issues in the MEI encoding app using **Python**.
+          - Contributed to building the [Virtual Instrument Museum](https://vim.simssa.ca/) website. Designed and implemented the front-end interface with **JavaScript** and **Bootstrap**, back-end with **Django**, and container with **Docker**, ensuring a user-friendly and responsive interface.
+          - Built an MEI mapping website [Cress](https://github.com/DDMAL/Cress) with **TypeScript** and deployed the website with **webpack** and GitHub Pages.
       - layout: left
         title: EERS Global Technologies Inc.
         sub_title: Machine Learning Developer
@@ -93,9 +93,9 @@ content:
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          - Set up optimal **AWS SageMaker** configurations after assessing the company’s requirements, and documented the infrastructure architecture and configuration details for future reference and knowledge sharing.
-          - Performed audio preprocessing, feature extraction, and visualization on an **unstructured** in-ear audio dataset with **Python** and reported insights on spectral characteristics and future research.
-          - Conducted exploratory experiments in Python (**TensorFlow/PyTorch**) and **MATLAB**, using lightweight machine learning algorithms such as Linear Regression, shallow CNN and RNN, and techniques including **Transfer Learning** with **HuggingFace** and **custom layer implementation**, to develop models for breathing rate estimation and speech intelligibility enhancement, contributing to the development of new products.
+          - Configured optimal **AWS SageMaker** settings, and documented infrastructure architecture.
+          - Developed an automated pipeline for audio preprocessing, data labelling, and feature extraction in **Python** to create an unstructured dataset, generated visualizations, and reported insights on spectral characteristics.
+          - Built Machine Learning models for breathing rate estimation, speech intelligibility enhancement, and out-of-ear detection, and created pipelines in **Python** and **MATLAB** for automated generation of tables and figures, facilitating thorough model comparisons on various aspects.
           - Authored comprehensive deliverables and worked closely with real-time developer to REAPER plugin prototyping and with hardware developer for product prototyping.
       # - layout: left
       #   title: Mutao Education Consulting Co.Ltd. (Shenzhen)
@@ -149,8 +149,8 @@ content:
             icon: fab fa-github
             url: https://github.com/yinanazhou/ds-glassdoor
         description: |
-          - Scraped data scientist openings in Canada from glassdoor.ca with **Selenium**, and conducted data preprocessing.
-          - Conducted Exploratory Data Analysis to assess market demand for data scientists, analyzing tech stack trends and identifying essential skills for professional development strategies.
+          - Scraped data scientist opening information within Canada from *glassdoor.ca* using **Selenium**, and extracted features and built a dataset.
+          - Conducted Exploratory Data Analysis (EDA) and created data visualizations with **Seaborn** to assess market demand for data-related positions, and identify essential skills for professional development strategies.
           - Built machine learning models with **custom loss function** to estimate data scientist salary, and packaged it into a client facing API using **Flask**.
       - layout: top
         title: 'Data Analysis: Rum Ratings Website'
@@ -161,10 +161,9 @@ content:
             icon: fab fa-github
             url: https://github.com/yinanazhou/rum-analysis
         description: |
-          - Scraped the Rum Ratings website with **BeautifulSoup** to build a dataset of over 9,000 rum information, and conducted data cleaning and preprocessing, including handling missing data.
-          - Calculated the Bayesian average rating to account for the number of ratings and the variability of ratings.
-          - Conducted Exploratory Data Analysis to analyze the relationship between rum ratings, price, region, and type.
-          - Generated data visualizations and completed a report to show findings.
+          - Scraped *rumratings.com* using **BeautifulSoup** and *saq.com* using **Selenium** to construct a comprehensive rum dataset, and performed data cleaning and preprocessing.
+          - Conducted an in-depth analysis of the rum market, identified market gaps, and predicted potential opportunities for specific rum varieties to meet consumer demand.
+          - Developed a web-based interactive dashboard using **Plotly** and **Dash** to visualize the findings.
       - layout: top
         title: AI Song Contest - Poetry-based Chinese Traditional Music Generation Using Transfer Learning 
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)

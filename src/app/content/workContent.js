@@ -248,11 +248,12 @@ const WORK_CONTENT = [
         </li>
         <li>
           <span>
-            Arranged and recorded the original song "Happy Village Convention."
+            Arranged and recorded the original song &quot;Happy Village
+            Convention.&quot;
           </span>
         </li>
         <li>
-          <span>Transcribed the song "The Best Stage."</span>
+          <span>Transcribed the song &quot;The Best Stage.&quot;</span>
         </li>
       </ul>
     ),

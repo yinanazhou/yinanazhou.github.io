@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { HiMail } from 'react-icons/hi';
@@ -79,7 +78,7 @@ const HeroSection = () => {
           className="col-span-5 place-self-center mt-0 mb-4 sm:mb-0"
         >
           <div className="rounded-full w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] lg:w-[300px] lg:h-[300px] shadow-lg shadow-neutral-500/50">
-            <Image
+            <img
               src="/images/profile.jpeg"
               alt="hero image"
               className="object-fill rounded-full"

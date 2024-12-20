@@ -6,7 +6,7 @@ const CardTag = ({ name, onClick, isSelected }) => {
     : 'txt-color-p border-neutral-300 hover:border-neutral-400 dark:hover:border-white';
   return (
     <button
-      className={`${buttonStyles} rounded-full border-2 px-6 py-3 text-xl cursor-pointer`}
+      className={`${buttonStyles} rounded-full border-2 px-4 py-2 md:px-6 md:py-3 text-sm md:text-xl cursor-pointer`}
       onClick={() => onClick(name)}
     >
       {name}

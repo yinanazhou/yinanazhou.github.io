@@ -20,7 +20,7 @@ const EducationSection = () => {
         initial="initial"
         animate={isInView ? 'animate' : 'initial'}
         transition={{ duration: 0.3 }}
-        className="rounded-xl w-full mt-3 card-bg py-6 px-6 shadow-md shadow-neutral-500/30"
+        className="rounded-xl w-full mt-3 card-bg py-6 px-2 md:px-6 shadow-md shadow-neutral-500/30"
       >
         <h1 className="txt-color-primary text-center text-4xl font-bold pb-6">
           Education

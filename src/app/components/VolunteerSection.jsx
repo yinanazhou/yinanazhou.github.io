@@ -19,13 +19,13 @@ const VolunteerSection = () => {
         initial="initial"
         animate={isInView ? 'animate' : 'initial'}
         transition={{ duration: 0.3, delay: 0.4 }}
-        className="rounded-xl w-full mt-3 card-bg py-6 px-6 shadow-md shadow-neutral-500/30"
+        className="rounded-xl w-full mt-3 card-bg py-6 px-0 md:px-6 shadow-md shadow-neutral-500/30"
       >
         <h1 className="w-full txt-color-primary text-center text-4xl font-bold pb-6">
           Volunteer
         </h1>
-        <div className="items-center px-3">
-          <ul className="grid gap-8 list-style txt-color-secondary">
+        <div className="items-center">
+          <ul className="grid gap-8 list-outside list-disc px-3 txt-color-secondary">
             {VT_CONTENT.map((volunteer, index) => (
               <div key={index} className="">
                 <div className="header flex flex-col mb-4">
@@ -38,7 +38,7 @@ const VolunteerSection = () => {
                     <h6 className="text-lg italic">{volunteer.location}</h6>
                   </div>
                 </div>
-                <div className="txt-color-secondary text-justify">
+                <div className="txt-color-secondary md:text-justify">
                   {volunteer.description}
                 </div>
               </div>

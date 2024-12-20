@@ -19,12 +19,12 @@ const PublicationsSection = () => {
         initial="initial"
         animate={isInView ? 'animate' : 'initial'}
         transition={{ duration: 0.3, delay: 0.4 }}
-        className="rounded-xl w-full mt-3 card-bg py-6 px-6 shadow-md shadow-neutral-500/30"
+        className="rounded-xl w-full mt-3 card-bg py-6 px-2 md:px-6 shadow-md shadow-neutral-500/30"
       >
         <h1 className="w-full txt-color-primary text-center text-4xl font-bold pb-6">
           Publications
         </h1>
-        <div className="items-center px-3">
+        <div className="items-center">
           <ul className="grid gap-8 list-style txt-color-secondary">
             {PB_CONTENT.map((publication, index) => (
               <li key={index}>

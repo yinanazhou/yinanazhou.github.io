@@ -14,7 +14,7 @@ export default function Academic() {
   return (
     <main className="flex min-h-screen flex-col bg-neutral-100 dark:bg-neutral-900">
       <Navbar page={'Academic'} />
-      <div className="container min-h-[80vh] mt-24 mx-auto px-12 lg:px-16 py-4 ">
+      <div className="container min-h-[80vh] mt-24 mx-auto px-4 lg:px-16 py-4 ">
         <EducationSection />
         <SchoolProjectsSection />
         <PublicationsSection />

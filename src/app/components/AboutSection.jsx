@@ -25,7 +25,7 @@ const AboutSection = () => {
         </h2>
 
         <div className="flex flex-col md:gap-2 lg:flex-row justify-center sm:justify-between">
-          <span className="basis-1/2 text-center lg:text-justify text-sm md:text-lg lg:text-sm xl:text-lg mt-8 pt-4 px-6 sm:px-0 txt-color-p">
+          <span className="basis-1/2 text-center lg:text-justify text-sm md:text-lg lg:text-sm xl:text-lg mt-8 pt-4 md:px-6 px-0 txt-color-p">
             I do research in music<sup>*</sup> for school;
             <br />
             I develop interactive and responsive web applications for bread;

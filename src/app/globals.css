@@ -22,7 +22,30 @@
 
 @layer base {
   .txt-color-primary {
-    @apply text-neutral-800 hover:text-neutral-800 dark:text-neutral-200 hover:dark:text-neutral-200;
+    @apply text-neutral-800 dark:text-neutral-200;
+  }
+
+  .txt-color-secondary {
+    @apply text-neutral-700 dark:text-neutral-300;
+  }
+  .txt-color-p {
+    @apply text-neutral-600 dark:text-neutral-300;
+  }
+
+  .list-style {
+    @apply list-outside list-disc px-6;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-r from-primary-500 to-secondary-600;
+  }
+
+  .card-bg {
+    @apply bg-neutral-200 dark:bg-neutral-800;
+  }
+
+  .link {
+    @apply text-primary-700 hover:text-primary-600 dark:text-primary-500 dark:hover:text-primary-400 underline;
   }
 }
 

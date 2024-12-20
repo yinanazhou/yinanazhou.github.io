@@ -1,11 +1,11 @@
 'use client';
 import React, { useState, useRef } from 'react';
-import ProjectCard from './ProjectCard';
+import WorkCard from './WorkCard';
 import CardTag from './CardTag';
 import { motion, useInView } from 'framer-motion';
-import PJ_CONTENT from '../content/projectContent';
+import WORK_CONTENT from '../content/workContent';
 
-const ProjectsSection = () => {
+const WorkSection = () => {
   const [tag, setTag] = useState('All');
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -14,9 +14,7 @@ const ProjectsSection = () => {
     setTag(newTag);
   };
 
-  const filteredProjects = PJ_CONTENT.filter((project) =>
-    project.tag.includes(tag)
-  );
+  const filteredWork = WORK_CONTENT.filter((work) => work.tag.includes(tag));
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
@@ -24,7 +22,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className="min-h-[80vh]">
+    <section id="work" className="min-h-[80vh]">
       <div className="txt-color-primary flex flex-row justify-center items-center gap-4 py-6">
         <CardTag
           onClick={handleTagChange}
@@ -33,20 +31,22 @@ const ProjectsSection = () => {
         />
         <CardTag
           onClick={handleTagChange}
-          name="Dev"
-          isSelected={tag === 'Dev'}
+          name="Tech"
+          isSelected={tag === 'Tech'}
         />
         <CardTag
           onClick={handleTagChange}
-          name="Research"
-          isSelected={tag === 'Research'}
+          name="Media"
+          isSelected={tag === 'Media'}
+        />
+        <CardTag
+          onClick={handleTagChange}
+          name="Bar"
+          isSelected={tag === 'Bar'}
         />
       </div>
-      <ul
-        ref={ref}
-        className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12"
-      >
-        {filteredProjects.map((project, index) => (
+      <ul ref={ref} className="grid gap-6 mb-8">
+        {filteredWork.map((work, index) => (
           <motion.li
             key={index}
             variants={cardVariants}
@@ -54,13 +54,13 @@ const ProjectsSection = () => {
             animate={isInView ? 'animate' : 'initial'}
             transition={{ duration: 0.3, delay: index * 0.4 }}
           >
-            <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              imgUrl={project.image}
-              gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
+            <WorkCard
+              key={work.id}
+              title={work.title}
+              company={work.company}
+              date={work.date}
+              location={work.location}
+              description={work.description}
             />
           </motion.li>
         ))}
@@ -69,4 +69,4 @@ const ProjectsSection = () => {
   );
 };
 
-export default ProjectsSection;
+export default WorkSection;

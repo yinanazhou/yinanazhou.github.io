@@ -10,3 +10,11 @@ overrides:
   - files: "*.js"
     options:
       trailingComma: "es5"
+  - files: "*.jsx"
+    options:
+      singleQuote: true
+      trailingComma: "es5"
+  - files: "*.html"
+    options:
+      singleQuote: true
+

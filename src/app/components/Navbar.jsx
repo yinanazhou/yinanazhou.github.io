@@ -4,26 +4,10 @@ import React, { useState } from 'react';
 import NavLink from './NavLink';
 import { HiBars3, HiXMark } from 'react-icons/hi2';
 import MenuOverlay from './MenuOverlay';
-import {
-  Diplomata,
-  Fascinate_Inline,
-  Limelight,
-  Gravitas_One,
-} from 'next/font/google';
-import { MdDarkMode, MdLightMode } from 'react-icons/md';
+import { Limelight } from 'next/font/google';
 import SocialLinks from './SocialLinks';
 
-const diplomata = Diplomata({ subsets: ['latin'], weight: ['400'] });
-const fascinate_inline = Fascinate_Inline({
-  subsets: ['latin'],
-  weight: ['400'],
-});
-
 const limelight = Limelight({
-  subsets: ['latin'],
-  weight: ['400'],
-});
-const gravitas_one = Gravitas_One({
   subsets: ['latin'],
   weight: ['400'],
 });
@@ -31,24 +15,28 @@ const gravitas_one = Gravitas_One({
 const navLinks = [
   {
     title: 'Work',
-    path: '#about',
+    path: '/work',
   },
   {
     title: 'Projects',
-    path: '#projects',
+    path: '/projects',
   },
   {
-    title: 'Education',
-    path: '#contact',
+    title: 'Academic',
+    path: '/academic',
   },
 ];
 
-const Navbar = () => {
+const Navbar = ({ page }) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto border border-neutral-300 dark:border-[#33353F] font-bold top-0 left-0 right-0 z-10 bg-neutral-100 dark:bg-neutral-900 bg-opacity-100">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
+    <nav
+      className="fixed mx-auto font-bold top-0 left-0 right-0 z-10 bg-neutral-100 dark:bg-neutral-900 bg-opacity-100
+    border border-neutral-300  border-l-transparent border-r-transparent border-t-transparent
+      dark:border-[#33353F] dark:border-l-transparent dark:border-r-transparent dark:border-t-transparent"
+    >
+      <div className="flex container lg:py-4 items-center justify-between mx-auto px-4 py-2">
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
@@ -70,14 +58,18 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} />
+                <NavLink
+                  href={link.path}
+                  title={link.title}
+                  isActive={page === link.title}
+                />
               </li>
             ))}
           </ul>
         </div>
         <Link
           href={'/'}
-          className={`text-2xl md:text-5xl text-neutral-900 dark:text-neutral-100 ${limelight.className}`}
+          className={`text-2xl md:text-5xl text-neutral-900 dark:text-neutral-100 hover:scale-110 ${limelight.className}`}
         >
           YINAN
         </Link>
@@ -85,7 +77,9 @@ const Navbar = () => {
           <SocialLinks />
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen ? (
+        <MenuOverlay links={navLinks} closeMenu={() => setNavbarOpen(false)} />
+      ) : null}
     </nav>
   );
 };

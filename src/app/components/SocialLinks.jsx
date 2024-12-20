@@ -4,27 +4,37 @@ import { MdLightMode, MdDarkMode } from 'react-icons/md';
 import { useState, useEffect } from 'react';
 
 const SocialLinks = () => {
-  // Dark mode state and toggle logic
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(null);
 
   useEffect(() => {
-    // Check if dark mode is preferred in system or local storage
-    let isDarkMode = localStorage.getItem('darkMode');
-    if (isDarkMode == null) {
-      isDarkMode =
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // Check initial dark mode preference
+    const storedDarkMode = localStorage.getItem('darkMode');
+
+    // Determine initial mode
+    let initialMode;
+    if (storedDarkMode !== null) {
+      // Use stored preference if it exists
+      initialMode = storedDarkMode === 'true';
+    } else {
+      // Use system preference if no stored preference
+      initialMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
     }
 
-    setDarkMode(isDarkMode);
-    updateDarkMode(isDarkMode);
+    // Set the mode
+    setDarkMode(initialMode);
+    updateDarkMode(initialMode);
   }, []);
 
+  useEffect(() => {
+    // Update dark mode when state changes
+    if (darkMode !== null) {
+      updateDarkMode(darkMode);
+      localStorage.setItem('darkMode', darkMode.toString());
+    }
+  }, [darkMode]);
+
   const toggleDarkMode = () => {
-    const newDarkMode = !darkMode;
-    setDarkMode(newDarkMode);
-    localStorage.setItem('darkMode', newDarkMode.toString());
-    updateDarkMode(newDarkMode);
+    setDarkMode((prevMode) => !prevMode);
   };
 
   const updateDarkMode = (isDark) => {
@@ -59,8 +69,8 @@ const SocialLinks = () => {
       </Link>
       <button
         onClick={toggleDarkMode}
-        className="text-sm border rounded-full px-2 w-8 h-8 content-center
-                   justify-items-center bg-neutral-800 hover:bg-neutral-800
+        className="text-sm border rounded-full px-2 w-8 h-8 place-items-center
+                    bg-neutral-800 hover:bg-neutral-800
                    text-neutral-100 dark:bg-neutral-200 dark:hover:bg-neutral-200
                    dark:text-neutral-900 hover:scale-110 transition-transform"
       >

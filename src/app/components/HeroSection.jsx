@@ -17,7 +17,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-7 place-self-center text-center sm:text-left justify-self-start order-last sm:order-first"
         >
-          <h1 className="txt-color-primary mb-4 text-4xl xl:text-6xl 2xl:text-7xl lg:leading-normal font-bold">
+          <h1 className="txt-color-primary mb-4 text-3xl md:text-4xl xl:text-6xl 2xl:text-7xl lg:leading-normal font-bold">
             <span className="text-transparent bg-clip-text gradient-bg pb-0">
               Hello, I&apos;m{' '}
             </span>
@@ -44,14 +44,14 @@ const HeroSection = () => {
           </p>
           <div className="flex space-x-2 lg:space-x-4 justify-center sm:justify-start">
             <div
-              className="text-sm border rounded-full px-2 w-8 h-8 content-center
-                                justify-items-center bg-neutral-600
+              className="text-sm border rounded-full px-2 w-8 h-8 flex items-center
+                                justify-center bg-neutral-600
                                text-neutral-100 dark:bg-neutral-200
                                dark:text-neutral-900 transition-transform hover:scale-110 mb-6"
               onMouseEnter={() => setIsEmailHovered(true)}
               onMouseLeave={() => setIsEmailHovered(false)}
             >
-              <HiMail size={20} />
+              <HiMail className="transform scale-125" />
             </div>
             <motion.div
               className="txt-color-p text-base sm:text-lg mb-6 lg:text-xl overflow-hidden"

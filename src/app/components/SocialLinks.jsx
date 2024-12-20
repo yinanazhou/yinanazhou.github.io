@@ -69,12 +69,16 @@ const SocialLinks = () => {
       </Link>
       <button
         onClick={toggleDarkMode}
-        className="text-sm border rounded-full px-2 w-8 h-8 place-items-center
+        className="text-sm border rounded-full px-2 w-8 h-8 flex items-center
                     bg-neutral-800 hover:bg-neutral-800
                    text-neutral-100 dark:bg-neutral-200 dark:hover:bg-neutral-200
                    dark:text-neutral-900 hover:scale-110 transition-transform"
       >
-        {darkMode ? <MdLightMode size={20} /> : <MdDarkMode size={20} />}
+        {darkMode ? (
+          <MdLightMode className="transform scale-125" />
+        ) : (
+          <MdDarkMode className="transform scale-125" />
+        )}
       </button>
     </div>
   );

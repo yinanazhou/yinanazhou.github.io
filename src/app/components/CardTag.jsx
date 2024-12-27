@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardTag = ({ name, onClick, isSelected }) => {
   const buttonStyles = isSelected
-    ? 'txt-color-p border-primary-500'
+    ? 'txt-color-p border-primary-700'
     : 'txt-color-p border-neutral-300 hover:border-neutral-400 dark:hover:border-white';
   return (
     <button

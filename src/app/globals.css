@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --font-courier-prime: 'Courier Prime', monospace;
+  --font-noto: 'Noto Sans', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,7 +39,7 @@
   }
 
   .gradient-bg {
-    @apply bg-gradient-to-r from-primary-500 to-secondary-600;
+    @apply bg-gradient-to-r from-primary-700 to-secondary-600;
   }
 
   .card-bg {

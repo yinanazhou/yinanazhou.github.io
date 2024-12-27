@@ -14,7 +14,9 @@ const WorkCard = ({ title, company, date, location, description }) => {
             <h6 className="text-lg italic">{location}</h6>
           </div>
         </div>
-        <div className="txt-color-secondary md:text-justify">{description}</div>
+        <div className="txt-color-secondary font-noto md:text-justify">
+          {description}
+        </div>
       </div>
     </div>
   );

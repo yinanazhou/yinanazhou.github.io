@@ -54,7 +54,7 @@ const WORK_CONTENT = [
               Neon
             </a>{' '}
             using MEI/MusicXML. Implemented front-end interface with TypeScript,
-            editor toolkit customization to
+            editor toolkit customization to{' '}
             <a
               href="https://github.com/DDMAL/Verovio"
               className="link"
@@ -112,7 +112,7 @@ const WORK_CONTENT = [
     tag: ['All', 'Tech'],
     title: 'Machine Learning Developer',
     company: 'EERS Global Technologies Inc.',
-    date: 'Mar. 2022 – Mar. 2023',
+    date: 'Mar. 2022 - Mar. 2023',
     location: 'Montreal, Quebec',
     description: (
       <ul className="list-style">

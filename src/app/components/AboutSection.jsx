@@ -20,7 +20,7 @@ const AboutSection = () => {
       border border-neutral-300  border-l-transparent border-r-transparent border-b-transparent
       dark:border-[#33353F] dark:border-l-transparent dark:border-r-transparent dark:border-b-transparent"
       >
-        <h2 className="w-full txt-color-primary text-center lg:justify-start text-4xl font-bold mt-16 mb-4">
+        <h2 className="w-full font-noto txt-color-primary text-center lg:justify-start text-4xl font-bold mt-16 mb-4">
           About Me
         </h2>
 
@@ -39,7 +39,7 @@ const AboutSection = () => {
 
           <div className="basis-1/2 flex justify-center lg:justify-end pt-12 lg:pt-0">
             <div>
-              <div className="flex flex-row justify-center lg:justify-start mt-8">
+              <div className="flex flex-row justify-center lg:justify-start mt-8 font-noto">
                 <AboutTag
                   selectTab={() => handleTabChange('coding')}
                   active={tab === 'coding'}
@@ -67,13 +67,6 @@ const AboutSection = () => {
                 >
                   {' '}
                   Language{' '}
-                </AboutTag>
-                <AboutTag
-                  selectTab={() => handleTabChange('research')}
-                  active={tab === 'research'}
-                >
-                  {' '}
-                  Research Interest{' '}
                 </AboutTag>
               </div>
               <div className="mt-4 lg:mt-8 txt-color-p min-h-[300px] text-sm md:text-lg lg:text-sm xl:text-lg">

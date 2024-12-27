@@ -14,12 +14,12 @@ const Footer = ({ date }) => {
     border-neutral-300 border-l-transparent border-r-transparent
     dark:border-[#33353F] dark:border-l-transparent dark:border-r-transparent"
     >
-      <div className="container px-12 py-4 flex justify-between items-center ">
+      <div className="container px-3 py-4 flex justify-between items-center ">
         <div
           href={'/'}
           className={`text-2xl lg:text-4xl text-neutral-900 dark:text-neutral-100 ${limelight.className}`}
         >
-          YINAN
+          ANA
         </div>
         <p className="font-mono text-xs md:text-sm text-neutral-600 dark:text-neutral-300">
           &mdash; {date} &mdash;

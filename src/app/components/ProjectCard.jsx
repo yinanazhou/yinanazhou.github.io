@@ -4,7 +4,7 @@ import { HiCodeBracket, HiOutlineEye } from 'react-icons/hi2';
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
-    <div className="rounded-xl mt-3 card-bg shadow-md shadow-neutral-500/30 md:min-h-[520px]">
+    <div className="rounded-xl mt-3 card-bg shadow-md shadow-neutral-500/30">
       <div
         className="h-52 md:h-72 rounded-t-xl  relative group"
         style={{
@@ -41,7 +41,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
         <h5 className="txt-color-primary text-xl font-semibold mb-2">
           {title}
         </h5>
-        <div className="txt-color-secondary">{description}</div>
+        <div className="txt-color-secondary font-noto">{description}</div>
       </div>
     </div>
   );

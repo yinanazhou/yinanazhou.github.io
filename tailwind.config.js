@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors');
+const { fontFamily } = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -13,11 +15,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        sans: ['var(--font-courier-prime)', ...fontFamily.sans], // Default (Courier Prime)
+        noto: ['var(--font-noto)', 'sans-serif'], // Secondary (Noto Sans)
+      },
     },
     colors: {
       ...colors,
-      primary: colors.emerald,
-      secondary: colors.sky,
+      primary: colors.green,
+      secondary: colors.blue,
       background: 'var(--background)',
       foreground: 'var(--foreground)',
     },

@@ -1,62 +1,129 @@
 const SK_CONTENT = [
   {
-    title: 'Coding',
-    id: 'coding',
-    content: (
-      <ul className="list-style">
-        <li>Python</li>
-        <li>C++</li>
-        <li>JavaScript/TypeScript</li>
-        <li>HTML/CSS</li>
-        <li>SQL</li>
-      </ul>
-    ),
+    name: 'JavaScript',
+    x: -50,
+    y: -70,
+    iconPath: '/images/skills/javascript.png',
   },
   {
-    title: 'Framework',
-    id: 'framework',
-    content: (
-      <ul className="list-style">
-        <li>React</li>
-        <li>Node.js/Express.js</li>
-        <li>Django/Flask</li>
-      </ul>
-    ),
+    name: 'TypeScript',
+    x: -70,
+    y: -50,
+    iconPath: '/images/skills/typescript.png',
   },
   {
-    title: 'Toolkit',
-    id: 'toolkit',
-    content: (
-      <ul className="list-style">
-        <li>Git</li>
-        <li>Tableau/Plotly</li>
-        <li>AWS</li>
-        <li>Docker</li>
-        <li>MATLAB</li>
-      </ul>
-    ),
+    name: 'HTML',
+    x: -30,
+    y: -20,
+    iconPath: '/images/skills/html.png',
   },
   {
-    title: 'Language',
-    id: 'language',
-    content: (
-      <ul className="list-style">
-        <li>Chinese Mandarin</li>
-        <li>English</li>
-        <li>French</li>
-      </ul>
-    ),
+    name: 'CSS',
+    x: -50,
+    y: -30,
+    iconPath: '/images/skills/css.svg',
   },
   {
-    title: 'Research Interest',
-    id: 'research',
-    content: (
-      <ul className="list-style">
-        <li>Computational Feminist Musicology</li>
-        <li>Natural Language Processing</li>
-        <li>Data Feminism</li>
-      </ul>
-    ),
+    name: 'Tailwind CSS',
+    x: -70,
+    y: 20,
+    iconPath: '/images/skills/tailwindcss.svg',
+  },
+  {
+    name: 'Bootstrap',
+    x: -50,
+    y: 30,
+    iconPath: '/images/skills/bootstrap.png',
+  },
+  {
+    name: 'Node.js',
+    x: -20,
+    y: 50,
+    iconPath: '/images/skills/nodejs.svg',
+  },
+  {
+    name: 'Next.js',
+    x: -40,
+    y: 70,
+    iconPath: '/images/skills/nextjs.png',
+  },
+  {
+    name: 'Django',
+    x: 0,
+    y: 80,
+    iconPath: '/images/skills/django.svg',
+  },
+  {
+    name: 'Flask',
+    x: 20,
+    y: 70,
+    iconPath: '/images/skills/flask.png',
+  },
+  {
+    name: 'Plotly/Dash',
+    x: 20,
+    y: 30,
+    iconPath: '/images/skills/plotly.png',
+  },
+  {
+    name: 'Python',
+    x: 0,
+    y: -40,
+    iconPath: '/images/skills/python.svg',
+  },
+  {
+    name: 'C++',
+    x: 20,
+    y: -40,
+    iconPath: '/images/skills/cpp.png',
+  },
+  {
+    name: 'AWS',
+    x: 80,
+    y: 30,
+    iconPath: '/images/skills/aws.png',
+  },
+  {
+    name: 'Tableau',
+    x: 60,
+    y: 60,
+    iconPath: '/images/skills/tableau.png',
+  },
+  {
+    name: 'MySQL',
+    x: 50,
+    y: 20,
+    iconPath: '/images/skills/mysql.png',
+  },
+  {
+    name: 'Git',
+    x: 60,
+    y: 0,
+    iconPath: '/images/skills/git.png',
+  },
+  {
+    name: 'Docker',
+    x: 70,
+    y: -20,
+    iconPath: '/images/skills/docker.svg',
+  },
+  {
+    name: 'MATLAB ',
+    x: 50,
+    y: -50,
+    iconPath: '/images/skills/matlab.png',
+  },
+  {
+    name: 'Mandarin ',
+    x: -20,
+    y: -75,
+    iconPath: '/images/skills/chinese.png',
+  },
+  {
+    name: 'English/French ',
+    x: 10,
+    y: -80,
+    iconPath: '/images/skills/canada.png',
   },
 ];
 

@@ -24,7 +24,7 @@ const HeroSection = () => {
           className="col-span-7 place-self-center text-center sm:text-left justify-self-start order-last sm:order-first"
         >
           <h1
-            className={`${courier_prime.className} txt-color-primary mb-4 text-3xl md:text-4xl xl:text-6xl 2xl:text-7xl lg:leading-normal font-bold`}
+            className={`${courier_prime.className} txt-color-primary mb-4 text-3xl md:text-4xl xl:text-5xl 2xl:text-7xl font-bold`}
           >
             <span className="text-transparent bg-clip-text gradient-bg pb-0">
               Hello, I&apos;m{' '}
@@ -32,7 +32,7 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                'Ana',
+                'Yinan',
                 1000,
                 'ML Researcher',
                 1000,

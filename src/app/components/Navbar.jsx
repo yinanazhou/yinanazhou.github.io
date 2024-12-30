@@ -71,7 +71,7 @@ const Navbar = ({ page }) => {
           href={'/'}
           className={`text-2xl md:text-5xl text-neutral-900 dark:text-neutral-100 hover:scale-110 ${limelight.className}`}
         >
-          ANA
+          YINAN
         </Link>
         <div className="menu hidden md:block md:w-auto" id="navbar">
           <SocialLinks />

@@ -19,7 +19,7 @@ const Footer = ({ date }) => {
           href={'/'}
           className={`text-2xl lg:text-4xl text-neutral-900 dark:text-neutral-100 ${limelight.className}`}
         >
-          ANA
+          YINAN
         </div>
         <p className="font-mono text-xs md:text-sm text-neutral-600 dark:text-neutral-300">
           &mdash; {date} &mdash;

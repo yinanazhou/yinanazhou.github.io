@@ -12,7 +12,7 @@ const courier_prime = Courier_Prime({
 });
 
 export const metadata = {
-  title: 'Ana Zhou',
+  title: 'Yinan Zhou',
   description: 'Personal Website',
 };
 

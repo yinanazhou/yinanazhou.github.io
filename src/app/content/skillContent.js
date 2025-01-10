@@ -31,8 +31,8 @@ const SK_CONTENT = [
   },
   {
     name: 'Bootstrap',
-    x: -50,
-    y: 30,
+    x: -40,
+    y: 25,
     iconPath: '/images/skills/bootstrap.png',
   },
   {
@@ -44,19 +44,19 @@ const SK_CONTENT = [
   {
     name: 'Next.js',
     x: -40,
-    y: 70,
+    y: 65,
     iconPath: '/images/skills/nextjs.png',
   },
   {
     name: 'Django',
     x: 0,
-    y: 80,
+    y: 70,
     iconPath: '/images/skills/django.svg',
   },
   {
     name: 'Flask',
     x: 20,
-    y: 70,
+    y: 55,
     iconPath: '/images/skills/flask.png',
   },
   {
@@ -68,18 +68,18 @@ const SK_CONTENT = [
   {
     name: 'Python',
     x: 0,
-    y: -40,
+    y: -30,
     iconPath: '/images/skills/python.svg',
   },
   {
     name: 'C++',
     x: 20,
-    y: -40,
+    y: -25,
     iconPath: '/images/skills/cpp.png',
   },
   {
     name: 'AWS',
-    x: 80,
+    x: 70,
     y: 30,
     iconPath: '/images/skills/aws.png',
   },
@@ -91,7 +91,7 @@ const SK_CONTENT = [
   },
   {
     name: 'MySQL',
-    x: 50,
+    x: 40,
     y: 20,
     iconPath: '/images/skills/mysql.png',
   },
@@ -103,7 +103,7 @@ const SK_CONTENT = [
   },
   {
     name: 'Docker',
-    x: 70,
+    x: 60,
     y: -20,
     iconPath: '/images/skills/docker.svg',
   },
@@ -116,14 +116,20 @@ const SK_CONTENT = [
   {
     name: 'Mandarin ',
     x: -20,
-    y: -75,
+    y: -65,
     iconPath: '/images/skills/chinese.png',
   },
   {
     name: 'English/French ',
     x: 10,
-    y: -80,
+    y: -70,
     iconPath: '/images/skills/canada.png',
+  },
+  {
+    name: 'D3.js',
+    x: -60,
+    y: 60,
+    iconPath: '/images/skills/d3.svg',
   },
 ];
 

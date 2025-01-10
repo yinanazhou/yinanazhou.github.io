@@ -36,6 +36,7 @@ const SkillSection = () => {
 
     const labelStyle =
       'text-sm fill-primary-800 dark:fill-primary-400 font-bold';
+    const gridStyle = 'stroke-neutral-300 dark:stroke-neutral-700';
 
     const svg = d3.select(svgRef.current);
 
@@ -50,9 +51,23 @@ const SkillSection = () => {
       .domain([-100, 100])
       .range([dimensions.height, 0]);
 
+    // Define an elliptical clipping path
+    svg
+      .append('defs')
+      .append('clipPath')
+      .attr('id', 'ellipse-clip')
+      .append('ellipse')
+      .attr('cx', dimensions.width / 2)
+      .attr('cy', dimensions.height / 2)
+      .attr('rx', dimensions.width * 0.48)
+      .attr('ry', dimensions.height * 0.45);
+
     // Add grid lines
     // Vertical grid lines
-    const verticalGridLines = svg.append('g').attr('class', 'grid-lines');
+    const verticalGridLines = svg
+      .append('g')
+      .attr('class', 'grid-lines')
+      .attr('clip-path', 'url(#ellipse-clip)');
     const verticalLines = [-75, -50, -25, 0, 25, 50, 75]; // Adjust these values to control grid line positions
     verticalLines.forEach((value) => {
       verticalGridLines
@@ -61,13 +76,16 @@ const SkillSection = () => {
         .attr('y1', 0)
         .attr('x2', xScale(value))
         .attr('y2', dimensions.height)
-        .attr('class', 'stroke-neutral-200 dark:stroke-neutral-800')
+        .attr('class', gridStyle)
         .attr('stroke-dasharray', '4,4') // Creates dashed line
-        .attr('stroke-width', 1);
+        .attr('stroke-width', 1.5);
     });
 
     // Horizontal grid lines
-    const horizontalGridLines = svg.append('g').attr('class', 'grid-lines');
+    const horizontalGridLines = svg
+      .append('g')
+      .attr('class', 'grid-lines')
+      .attr('clip-path', 'url(#ellipse-clip)');
     const horizontalLines = [-75, -50, -25, 0, 25, 50, 75]; // Adjust these values to control grid line positions
     horizontalLines.forEach((value) => {
       horizontalGridLines
@@ -76,7 +94,7 @@ const SkillSection = () => {
         .attr('y1', yScale(value))
         .attr('x2', dimensions.width)
         .attr('y2', yScale(value))
-        .attr('class', 'stroke-neutral-200 dark:stroke-neutral-800')
+        .attr('class', gridStyle)
         .attr('stroke-dasharray', '4,4') // Creates dashed line
         .attr('stroke-width', 1);
     });
@@ -218,7 +236,7 @@ const SkillSection = () => {
   }, [dimensions, isInView]);
 
   return (
-    <section className="min-h-[80vh] flex flex-col" id="about">
+    <section className="min-h-[80vh] flex flex-col" id="skill">
       <div className="mt-4 md:mt-0 text-left flex flex-col flex-1 border border-neutral-300 border-l-transparent border-r-transparent border-b-transparent dark:border-[#33353F] dark:border-l-transparent dark:border-r-transparent dark:border-b-transparent mb-16">
         <h2 className="w-full font-noto txt-color-primary text-center text-4xl font-bold mt-16 mb-4">
           Skills

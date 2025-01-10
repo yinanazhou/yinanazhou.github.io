@@ -61,7 +61,7 @@ const SK_CONTENT = [
   },
   {
     name: 'Plotly/Dash',
-    x: 20,
+    x: 10,
     y: 30,
     iconPath: '/images/skills/plotly.png',
   },
@@ -103,13 +103,13 @@ const SK_CONTENT = [
   },
   {
     name: 'Docker',
-    x: 60,
+    x: 50,
     y: -20,
     iconPath: '/images/skills/docker.svg',
   },
   {
     name: 'MATLAB ',
-    x: 50,
+    x: 40,
     y: -50,
     iconPath: '/images/skills/matlab.png',
   },
@@ -128,7 +128,7 @@ const SK_CONTENT = [
   {
     name: 'D3.js',
     x: -60,
-    y: 60,
+    y: 55,
     iconPath: '/images/skills/d3.svg',
   },
 ];

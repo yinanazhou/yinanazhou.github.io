@@ -1,5 +1,76 @@
 const WORK_CONTENT = [
   {
+    id: 9,
+    tag: ['All', 'Tech'],
+    title: 'Software Developer',
+    company:
+      'Distributed Digital Music Archives & Libraries Lab (DDMAL), McGill University',
+    date: 'May 2021 - Present',
+    location: 'Montreal, Quebec',
+    description: (
+      <ul className="list-style">
+        <li>
+          <span>
+            Led a team of three to develop a music score editor{' '}
+            <a
+              href="https://github.com/DDMAL/Neon"
+              className="link"
+              target="_blank"
+            >
+              Neon
+            </a>{' '}
+            in MEI using TypeScript, D3.js, IndexedDB, Cypress for E2E testing,
+            webpack, and C++ (
+            <a
+              href="https://github.com/DDMAL/Verovio"
+              className="link"
+              target="_blank"
+            >
+              Verovio
+            </a>
+            ), resulting in more than 50% reduction in user correction time per
+            folio.
+          </span>
+        </li>
+        <li>
+          <span>
+            Fixed UI and algorithms for the Optical Music Recognition website{' '}
+            <a
+              href="https://github.com/DDMAL/Rodan"
+              className="link"
+              target="_blank"
+            >
+              Rodan
+            </a>{' '}
+            in Python and JavaScript.
+          </span>
+        </li>
+        <li>
+          <span>
+            Built{' '}
+            <a
+              href="https://github.com/DDMAL/Cress"
+              className="link"
+              target="_blank"
+            >
+              Cress
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://github.com/DDMAL/VIM"
+              className="link"
+              target="_blank"
+            >
+              UMIL
+            </a>{' '}
+            websites for digital musicology with Django, JavaScript, TypeScript,
+            Bootstrap, and Docker.
+          </span>
+        </li>
+      </ul>
+    ),
+  },
+  {
     id: 8,
     tag: ['All', 'Tech'],
     title: 'RADLab AI Research Intern',
@@ -10,24 +81,20 @@ const WORK_CONTENT = [
       <ul className="list-style">
         <li>
           <span>
-            Explored recent Music Structure Segmentation and Beat Detection
-            models, migrating the company-provided DSP method from MATLAB to{' '}
-            Python as baseline, resulting in a 7.70% improvement in downbeat
-            detection F-Measure with a Machine Learning (ML) model.
+            Migrated DSP baseline from MATLAB to Python, improved downbeat
+            detection F-Measure by 7.7% with a DL model.
           </span>
         </li>
         <li>
           <span>
-            Optimized the ML model pipeline, achieving a 71.54% reduction in
-            computational execution time, and enhanced the model to integrate
-            additional application-specific information for better performance.
+            Reduced ML workflow runtime by 71.5% and boosted performance using
+            application-specific features.
           </span>
         </li>
         <li>
           <span>
-            Implemented the solution as a REST API with Flask for production
-            use, and developed two prototypes integrating the optimized model
-            with Sibelius and ProTools, addressing two distinct use cases.
+            Deployed REST API with Flask and built prototypes for Sibelius and
+            ProTools to support two use cases.
           </span>
         </li>
       </ul>
@@ -38,70 +105,22 @@ const WORK_CONTENT = [
     tag: ['All', 'Tech'],
     title: 'Software Developer',
     company:
-      'Distributed Digital Music Archives & Libraries Lab (DDMAL), McGill University',
-    date: 'May 2021 – Present',
-    location: 'Montreal, Quebec',
+      'Digital and Cognitive Musicology Lab (DCML), École Polytechnique Fédérale de Lausanne (EPFL) ',
+    date: 'Mar. 2025 - May 2025',
+    location: 'Switzerland (Remote)',
     description: (
       <ul className="list-style">
         <li>
           <span>
-            Led a team of three in the development of a music score editor{' '}
+            Fixed bugs and improved the UI of a music analysis app{' '}
             <a
-              href="https://github.com/DDMAL/Neon"
+              href="https://github.com/DCMLab/reductive_analysis_app/tree/develop"
               className="link"
               target="_blank"
             >
-              Neon
+              MuseReduce
             </a>{' '}
-            using MEI/MusicXML. Implemented front-end interface with TypeScript,
-            editor toolkit customization to{' '}
-            <a
-              href="https://github.com/DDMAL/Verovio"
-              className="link"
-              target="_blank"
-            >
-              Verovio
-            </a>{' '}
-            library in C++, database with IndexedDB, E2E tests with Cypress,
-            resulting in more than 50% reduction in correcting time per folio.
-          </span>
-        </li>
-        <li>
-          <span>
-            Enhanced front-end functionality of an Optical Music Recognition
-            website{' '}
-            <a
-              href="https://github.com/DDMAL/Rodan"
-              className="link"
-              target="_blank"
-            >
-              Rodan
-            </a>{' '}
-            with JavaScript and Marionette, and resolved issues in different
-            apps using Python.
-          </span>
-        </li>
-        <li>
-          <span>
-            Built an MEI mapping website{' '}
-            <a
-              href="https://github.com/DDMAL/Cress"
-              className="link"
-              target="_blank"
-            >
-              Cress
-            </a>{' '}
-            and the{' '}
-            <a
-              href="https://github.com/DDMAL/VIM"
-              className="link"
-              target="_blank"
-            >
-              UMLI
-            </a>{' '}
-            website. Designed and implemented the front-end interface with
-            JavaScript/Typescript and Bootstrap, back-end with Django, and
-            container with Docker.
+            using JavaScript, SCSS, D3.js, and Vite.
           </span>
         </li>
       </ul>
@@ -124,11 +143,8 @@ const WORK_CONTENT = [
         </li>
         <li>
           <span>
-            Built ML models for Breathing Rate Estimation, Speech
-            Intelligibility Enhancement, and Out-of-Ear Detection. Created
-            pipelines in Python and MATLAB for audio pre-processing, data
-            labelling, feature extraction, and automated generation of tables
-            and figures.
+            Built ML models and pipelines in Python and MATLAB for breathing
+            rate estimation, speech enhancement, and out-of-ear detection.
           </span>
         </li>
       </ul>
@@ -206,7 +222,7 @@ const WORK_CONTENT = [
     title: 'Audio and Video Engineer',
     company: 'Heilongjiang Broadcast TV Station',
     date: 'Jul. 2019 - Aug. 2019',
-    location: 'Montreal, Quebec',
+    location: 'Heilongjiang, China',
     description: (
       <ul className="list-style">
         <li>
@@ -237,7 +253,7 @@ const WORK_CONTENT = [
     title: 'Audio Assistant',
     company: 'Jilin People"s Broadcasting Station',
     date: 'Aug. 2018 - Sept. 2018',
-    location: 'Montreal, Quebec',
+    location: 'Jilin, China',
     description: (
       <ul className="list-style">
         <li>
@@ -264,7 +280,7 @@ const WORK_CONTENT = [
     title: 'Audio Editor',
     company: 'Communication University of China Radio Station',
     date: 'Mar. 2017 - Jul. 2018',
-    location: 'Montreal, Quebec',
+    location: 'Beijing, China',
     description: (
       <ul className="list-style">
         <li>

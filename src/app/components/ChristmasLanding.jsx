@@ -262,55 +262,67 @@ const StarTop = ({ active }) => {
 const ChristmasLanding = ({ onEnter }) => {
   const [isAssembled, setIsAssembled] = useState(true);
   const [rotationY, setRotationY] = useState(0);
-  const touchStart = useRef({ x: 0, y: 0 });
+  const lastTouch = useRef({ x: 0, y: 0 });
+  const startTouch = useRef({ x: 0, y: 0 });
+  const isMoving = useRef(false);
 
   const handlePointerDown = (e) => {
-    touchStart.current = {
-      x: e.clientX || e.touches?.[0].clientX,
-      y: e.clientY || e.touches?.[0].clientY,
-    };
+    isMoving.current = true;
+    const x = e.clientX || e.touches?.[0].clientX;
+    const y = e.clientY || e.touches?.[0].clientY;
+    lastTouch.current = { x, y };
+    startTouch.current = { x, y };
   };
 
   const handlePointerMove = (e) => {
-    if (!touchStart.current.x) return;
+    if (!isMoving.current) return;
 
     const currentX = e.clientX || e.touches?.[0].clientX;
     const currentY = e.clientY || e.touches?.[0].clientY;
 
-    const deltaX = currentX - touchStart.current.x;
-    const deltaY = currentY - touchStart.current.y;
+    const deltaX = currentX - lastTouch.current.x;
+    const totalDeltaY = currentY - startTouch.current.y;
 
-    // Horizontal rotation
-    if (Math.abs(deltaX) > Math.abs(deltaY)) {
-      setRotationY((prev) => prev + deltaX * 0.01);
-    }
-    // Vertical swipe
-    else if (Math.abs(deltaY) > 30) {
-      if (deltaY < 0)
-        setIsAssembled(true); // Swipe up
-      else setIsAssembled(false); // Swipe down
+    // Horizontal rotation based on frame delta for smoothness
+    setRotationY((prev) => prev + deltaX * 0.01);
+
+    // Vertical toggle based on total gesture distance for reliability
+    if (Math.abs(totalDeltaY) > 50) {
+      if (totalDeltaY < 0) setIsAssembled(true);
+      else setIsAssembled(false);
     }
 
-    touchStart.current = { x: currentX, y: currentY };
+    lastTouch.current = { x: currentX, y: currentY };
   };
 
   const handlePointerUp = () => {
-    touchStart.current = { x: 0, y: 0 };
+    isMoving.current = false;
   };
+
+  // Add mouse wheel support for better desktop experience
+  useEffect(() => {
+    const handleWheel = (e) => {
+      if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
+        setRotationY((prev) => prev + e.deltaX * 0.01);
+      } else {
+        if (e.deltaY < 0) setIsAssembled(true);
+        else setIsAssembled(false);
+      }
+    };
+    window.addEventListener('wheel', handleWheel);
+    return () => window.removeEventListener('wheel', handleWheel);
+  }, []);
 
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="fixed inset-0 z-[100] bg-black overflow-hidden flex flex-col items-center justify-center"
+      className="fixed inset-0 z-[100] bg-black overflow-hidden flex flex-col items-center justify-center touch-none"
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
       onPointerLeave={handlePointerUp}
-      onTouchStart={handlePointerDown}
-      onTouchMove={handlePointerMove}
-      onTouchEnd={handlePointerUp}
     >
       <div className="absolute inset-0 cursor-move">
         <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>

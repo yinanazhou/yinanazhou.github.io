@@ -1,6 +1,7 @@
 const WORK_CONTENT = [
+
   {
-    id: 9,
+    id: 11,
     tag: ['All', 'Tech'],
     title: 'Software Developer',
     company:
@@ -11,30 +12,46 @@ const WORK_CONTENT = [
       <ul className="list-style">
         <li>
           <span>
-            Led a team of three to develop a music score editor{' '}
+            Led development of{' '}
             <a
               href="https://github.com/DDMAL/Neon"
               className="link"
               target="_blank"
             >
               Neon
-            </a>{' '}
-            in MEI using TypeScript, D3.js, IndexedDB, Cypress for E2E testing,
-            webpack, and C++ (
-            <a
+            </a>, a browser-based music score editor built in vanilla TypeScript, delivering interactive features such as zooming, dragging, highlighting, and editing under an Agile/Scrum workflow. Reduced manual correction time by 50%+ for end users.
+            {' '}<a
+              href="https://github.com/DDMAL/Neon/wiki/Instructions#using-neon"
+              className="link"
+              target="_blank"
+            >
+              [Demo Videos]
+            </a>
+          </span>
+        </li>
+        <li>
+          <span>
+            Implemented engraving and editing toolkit in the {' '}<a
               href="https://github.com/DDMAL/Verovio"
               className="link"
               target="_blank"
             >
               Verovio
-            </a>
-            ), resulting in more than 50% reduction in user correction time per
-            folio.
+            </a>{' '}
+            (C++) codebase to enable real-time SVG rendering and
+            interactive editing for the notation system used by Neon.
           </span>
         </li>
         <li>
           <span>
-            Fixed UI and algorithms for the Optical Music Recognition website{' '}
+            Built{' '}
+            <a
+              href="https://github.com/DDMAL/Cress"
+              className="link"
+              target="_blank"
+            >
+              Cress
+            </a>{' '}in TypeScript,an table-like tool for mapping glyphs to MEI, and fixed UI and algorithms for the Optical Music Recognition website{' '}
             <a
               href="https://github.com/DDMAL/Rodan"
               className="link"
@@ -47,24 +64,91 @@ const WORK_CONTENT = [
         </li>
         <li>
           <span>
-            Built{' '}
-            <a
-              href="https://github.com/DDMAL/Cress"
-              className="link"
-              target="_blank"
-            >
-              Cress
-            </a>{' '}
-            and{' '}
+            Designed and implemented a fully responsive web UI for {' '}
             <a
               href="https://github.com/DDMAL/VIM"
               className="link"
               target="_blank"
             >
               UMIL
-            </a>{' '}
-            websites for digital musicology with Django, JavaScript, TypeScript,
-            Bootstrap, and Docker.
+            </a>, a multilingual instrument-lexicon platform, using TypeScript, Vite, Bootstrap, Django, PostgreSQL, and Solr with a focus on usability and accessibility.
+          </span>
+        </li>
+        <li>
+          <span>
+            Integrated Google Analytics and Google Tag Manager to support product usage analysis.
+          </span>
+        </li>
+        <li>
+          <span>
+            Established CI/CD pipelines with GitHub Actions for automated formatting, testing, link checking, rebasing, and scheduled jobs, improving code quality and deployment reliability.
+          </span>
+        </li>
+        <li>
+          <span>
+            Deployed staging/production services with Docker and Nginx, including email verification workflows with rate limiting via AWS SMTP.
+          </span>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    id: 10,
+    tag: ['All', 'Tech'],
+    title: 'Frontend Developer',
+    company:
+      'Trinity College London',
+    date: 'Dec. 2025 - Jan. 2026',
+    location: 'United Kingdom (Remote)',
+    description: (
+      <ul className="list-style">
+        <li>
+          <span>
+            Owned end-to-end development of an interactive React + TypeScript score visualization component, delivering a
+            responsive overlay system for learner feedback in production.
+          </span>
+        </li>
+        <li>
+          <span>
+            Designed robust state management for async loading and annotation filtering, enabling reliable highlights,
+            shadow notes, and color-coded cues.
+          </span>
+        </li>
+        <li>
+          <span>
+            Optimized performance with memoized event processing and resize-safe reflow for smooth interaction at scale.
+          </span>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    id: 9,
+    tag: ['All', 'Tech'],
+    title: 'Software Developer',
+    company:
+      'Vortexpert Inc.',
+    date: 'Aug. 2025 - Sep. 2025',
+    location: 'Montreal, Quebec',
+    description: (
+      <ul className="list-style">
+        <li>
+          <span>
+            Built a real-time dashboard with React and TypeScript, leveraging Redis pub/sub to broadcast updates via
+            Socket.IO to a centralized state store.
+          </span>
+        </li>
+        <li>
+          <span>
+            Developed the global store using React&apos;s useSyncExternalStore pattern for concurrent-safe subscriptions,
+            incorporating runtime Zod validation to ensure data consistency, state deduplication to minimize unnecessary
+            re-renders, and error boundaries to enhance UI resilience.
+          </span>
+        </li>
+        <li>
+          <span>
+            Implemented automated tests with Jest + React Testing Library, simulating real-time push events to verify state
+            updates and UI behavior.
           </span>
         </li>
       </ul>
@@ -81,20 +165,14 @@ const WORK_CONTENT = [
       <ul className="list-style">
         <li>
           <span>
-            Migrated DSP baseline from MATLAB to Python, improved downbeat
-            detection F-Measure by 7.7% with a DL model.
+            Built prototypes and REST APIs for music applications, including audio-to-score alignment in Sibelius and music
+            structure segmentation in Pro Tools.
           </span>
         </li>
         <li>
           <span>
-            Reduced ML workflow runtime by 71.5% and boosted performance using
-            application-specific features.
-          </span>
-        </li>
-        <li>
-          <span>
-            Deployed REST API with Flask and built prototypes for Sibelius and
-            ProTools to support two use cases.
+            Integrated machine learning models into user-facing workflows, bridging research prototypes and production tools
+            by incorporating product-specific context to optimize algorithm behavior for real-world scenarios.
           </span>
         </li>
       </ul>
@@ -112,15 +190,16 @@ const WORK_CONTENT = [
       <ul className="list-style">
         <li>
           <span>
-            Fixed bugs and improved the UI of a music analysis app{' '}
-            <a
+            Proposed and implemented improved score annotation visualizations and UI/UX for the interactive Schenkerian
+            analysis application
+            {' '}<a
               href="https://github.com/DCMLab/reductive_analysis_app/tree/develop"
               className="link"
               target="_blank"
             >
               MuseReduce
-            </a>{' '}
-            using JavaScript, SCSS, D3.js, and Vite.
+            </a>{' '}, using vanilla JavaScript, SASS, D3.js, and Vite, significantly enhancing overall
+            user experience.
           </span>
         </li>
       </ul>
@@ -143,8 +222,12 @@ const WORK_CONTENT = [
         </li>
         <li>
           <span>
-            Built ML models and pipelines in Python and MATLAB for breathing
-            rate estimation, speech enhancement, and out-of-ear detection.
+            Built ML models and data pipelines in Python and MATLAB for audio-based health applications.
+          </span>
+        </li>
+        <li>
+          <span>
+            Authored deliverables, and collaborated with hardware and real-time developers for product prototyping.
           </span>
         </li>
       </ul>
